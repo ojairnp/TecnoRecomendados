@@ -6,6 +6,34 @@ const grid = document.querySelector('#product-grid');
 const counter = document.querySelector('#contador-productos');
 const updatedAt = document.querySelector('#fecha-actualizacion');
 
+const HERO_HOOKS = [
+  {
+    eyebrow: 'Una oportunidad distinta en cada visita · México',
+    lead: 'Hoy puede convenirte ',
+    accent: 'algo mejor'
+  },
+  {
+    eyebrow: 'Precios revisados diariamente · México',
+    lead: 'Que el descuento ',
+    accent: 'sí valga la pena'
+  },
+  {
+    eyebrow: 'Reputación antes que impulso · México',
+    lead: 'Miles de opiniones. ',
+    accent: 'Una decisión más clara'
+  },
+  {
+    eyebrow: 'Tecnología útil y precio actual · México',
+    lead: 'Menos búsquedas. ',
+    accent: 'Mejores compras'
+  },
+  {
+    eyebrow: 'Selección verificada · México',
+    lead: 'Encuentra primero ',
+    accent: 'lo que sí conviene'
+  }
+];
+
 if (menuButton && menu) {
   menuButton.addEventListener('click', () => {
     const isOpen = menu.classList.toggle('is-open');
@@ -67,6 +95,34 @@ function formattedDate(value) {
   return new Intl.DateTimeFormat('es-MX', {
     dateStyle: 'long', timeZone: 'America/Cancun'
   }).format(new Date(value));
+}
+
+function nextHeroRotation(productCount) {
+  const daySeed = Math.floor(Date.now() / 86400000);
+  let visit = 0;
+  try {
+    visit = Number.parseInt(localStorage.getItem('tecno-hero-visit') || '0', 10);
+    if (!Number.isFinite(visit) || visit < 0) visit = 0;
+    localStorage.setItem('tecno-hero-visit', String((visit + 1) % 100000));
+  } catch (_) {
+    // La rotación sigue funcionando por día cuando el navegador bloquea el almacenamiento.
+  }
+  return {
+    productIndex: (daySeed + visit) % productCount,
+    hookIndex: (daySeed + visit) % HERO_HOOKS.length
+  };
+}
+
+function updateHeroIntro(hook, product) {
+  const eyebrow = document.querySelector('#hero-eyebrow');
+  const title = document.querySelector('#hero-title');
+  const description = document.querySelector('#hero-text');
+  if (eyebrow) eyebrow.innerHTML = `<span></span> ${escapeHtml(hook.eyebrow)}`;
+  if (title) title.innerHTML = `${escapeHtml(hook.lead)}<em>${escapeHtml(hook.accent)}</em>`;
+  if (description) {
+    const reviews = new Intl.NumberFormat('es-MX').format(product.reviews || 0);
+    description.textContent = `Hoy destacamos ${product.title}: precio revisado, ${reviews} opiniones públicas y una razón clara para considerar la compra.`;
+  }
 }
 
 function updateHero(product, generatedAt) {
@@ -204,9 +260,12 @@ async function loadProducts() {
       ? payload.products.filter((product) => product.available && product.affiliate_url)
       : [];
     if (!products.length) return;
+    const rotation = nextHeroRotation(products.length);
+    const featuredProduct = products[rotation.productIndex];
     grid.innerHTML = products.map(productCard).join('');
     counter.textContent = `${products.length} oportunidades con reputación comprobada.`;
-    updateHero(products[0], payload.generated_at);
+    updateHeroIntro(HERO_HOOKS[rotation.hookIndex], featuredProduct);
+    updateHero(featuredProduct, payload.generated_at);
     if (updatedAt && payload.generated_at) {
       updatedAt.textContent = formattedDate(payload.generated_at);
     }

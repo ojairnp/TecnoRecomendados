@@ -23,7 +23,7 @@ class SiteTests(unittest.TestCase):
         self.assertIn('lang="es-MX"', self.home)
 
     def test_unique_primary_heading(self):
-        self.assertEqual(self.home.count("<h1>"), 1)
+        self.assertEqual(self.home.count("<h1"), 1)
 
     def test_seo_metadata(self):
         for marker in ['name="description"', 'rel="canonical"', 'name="robots"', 'application/ld+json']:
@@ -94,7 +94,13 @@ class SiteTests(unittest.TestCase):
         script = (ROOT / "app.js").read_text(encoding="utf-8")
         self.assertIn("Lo que dicen compradores", script)
         self.assertIn("review_snippets", script)
-        self.assertIn("updateHero(products[0], payload.generated_at)", script)
+        self.assertIn("nextHeroRotation(products.length)", script)
+        self.assertIn("updateHero(featuredProduct, payload.generated_at)", script)
+        self.assertGreaterEqual(script.count("eyebrow:"), 5)
+
+    def test_rotating_hook_targets_are_present(self):
+        for marker in ['id="hero-eyebrow"', 'id="hero-title"', 'id="hero-text"']:
+            self.assertIn(marker, self.home)
 
 
 if __name__ == "__main__":

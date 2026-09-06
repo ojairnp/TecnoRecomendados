@@ -2,6 +2,8 @@
 
 Sitio estático de oportunidades tecnológicas para México. La portada prioriza productos con precio revisado, reputación pública, contexto editorial y enlaces de compra proporcionados por el propietario.
 
+El gancho y el producto principal rotan en cada apertura para mantener fresca la portada. El contenido cambia, pero siempre usa productos disponibles y datos del catálogo realmente actualizado; la fecha mostrada nunca se simula.
+
 ## Probar localmente
 
 ```bash

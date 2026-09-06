@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
+data/candidate-products.json
 .vercel/
 .env*
 !.env.example

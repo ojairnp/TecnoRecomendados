@@ -3,6 +3,8 @@ import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from scripts.research_products import is_allowed_url
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -11,6 +13,7 @@ class SiteTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.home = (ROOT / "index.html").read_text(encoding="utf-8")
+        cls.products = json.loads((ROOT / "data" / "products.json").read_text(encoding="utf-8"))["products"]
 
     def test_required_files_exist(self):
         for name in ["index.html", "styles.css", "app.js", "robots.txt", "sitemap.xml", "llms.txt", "vercel.json"]:
@@ -30,22 +33,49 @@ class SiteTests(unittest.TestCase):
         for marker in ['href="#categorias"', 'href="#recomendados"', 'href="#metodo"', 'href="#guias"']:
             self.assertIn(marker, self.home)
 
-    def test_affiliate_disclosure_is_visible(self):
-        self.assertIn("Algunos enlaces serán de afiliado", self.home)
+    def test_affiliate_disclosure_remains_available(self):
+        disclosure = (ROOT / "aviso-afiliados.html").read_text(encoding="utf-8")
+        self.assertIn("enlaces de afiliado", disclosure)
+        self.assertIn('href="/aviso-afiliados.html"', self.home)
 
-    def test_no_fake_product_claims(self):
-        self.assertIn("No mostramos precios inventados", self.home)
+    def test_price_claim_is_limited_and_explained(self):
+        self.assertIn("no representa todo el mercado", self.home)
+        self.assertIn("Una cifra tachada nunca basta", self.home)
 
     def test_sitemap_is_valid_xml(self):
         ET.parse(ROOT / "sitemap.xml")
 
-    def test_products_start_empty(self):
-        data = json.loads((ROOT / "data" / "products.json").read_text(encoding="utf-8"))
-        self.assertEqual(data["products"], [])
+    def test_curated_catalog_has_sixteen_products(self):
+        self.assertEqual(len(self.products), 16)
+
+    def test_affiliate_links_are_unique_and_preserved(self):
+        links = [product["affiliate_url"] for product in self.products]
+        self.assertEqual(len(links), len(set(links)))
+        self.assertTrue(all(link.startswith("https://meli.la/") for link in links))
+
+    def test_every_product_has_reputation_and_editorial_context(self):
+        for product in self.products:
+            self.assertGreaterEqual(product["rating"], 4.8)
+            self.assertGreater(product["reviews"], 50)
+            self.assertGreater(product["price"], 0)
+            self.assertTrue(product["reason"])
+            self.assertTrue(product["price_signal"])
+            self.assertTrue(product["available"])
+
+    def test_home_prioritizes_offers(self):
+        self.assertLess(self.home.index('id="recomendados"'), self.home.index('id="categorias"'))
+        self.assertIn("Productos que convienen hoy", self.home)
 
     def test_vercel_config_is_valid_json(self):
         data = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
         self.assertTrue(data["cleanUrls"])
+
+    def test_link_research_accepts_only_official_hosts(self):
+        self.assertTrue(is_allowed_url("https://meli.la/abc123"))
+        self.assertTrue(is_allowed_url("https://www.mercadolibre.com.mx/producto"))
+        self.assertFalse(is_allowed_url("http://meli.la/abc123"))
+        self.assertFalse(is_allowed_url("https://meli.la.evil.example/abc123"))
+        self.assertFalse(is_allowed_url("https://example.com/producto"))
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ class SiteTests(unittest.TestCase):
         cls.products = json.loads((ROOT / "data" / "products.json").read_text(encoding="utf-8"))["products"]
 
     def test_required_files_exist(self):
-        for name in ["index.html", "styles.css", "app.js", "robots.txt", "sitemap.xml", "llms.txt", "vercel.json"]:
+        for name in ["index.html", "styles.css", "app.js", "robots.txt", "sitemap.xml", "llms.txt", "vercel.json", "package.json", ".github/workflows/update-catalog.yml"]:
             self.assertTrue((ROOT / name).is_file(), name)
 
     def test_spanish_mexico_language(self):
@@ -41,6 +41,7 @@ class SiteTests(unittest.TestCase):
     def test_price_claim_is_limited_and_explained(self):
         self.assertIn("no representa todo el mercado", self.home)
         self.assertIn("Una cifra tachada nunca basta", self.home)
+        self.assertIn("Precio revisado diariamente", self.home)
 
     def test_sitemap_is_valid_xml(self):
         ET.parse(ROOT / "sitemap.xml")
@@ -61,6 +62,10 @@ class SiteTests(unittest.TestCase):
             self.assertTrue(product["reason"])
             self.assertTrue(product["price_signal"])
             self.assertTrue(product["available"])
+            self.assertTrue(product["catalog_product_id"].startswith("MLM"))
+            self.assertTrue(product["permalink"].startswith("https://www.mercadolibre.com.mx/"))
+            self.assertEqual(len(product["review_snippets"]), 2)
+            self.assertTrue(all(snippet.strip() for snippet in product["review_snippets"]))
 
     def test_home_prioritizes_offers(self):
         self.assertLess(self.home.index('id="recomendados"'), self.home.index('id="categorias"'))
@@ -76,6 +81,20 @@ class SiteTests(unittest.TestCase):
         self.assertFalse(is_allowed_url("http://meli.la/abc123"))
         self.assertFalse(is_allowed_url("https://meli.la.evil.example/abc123"))
         self.assertFalse(is_allowed_url("https://example.com/producto"))
+
+    def test_daily_workflow_updates_and_validates_catalog(self):
+        workflow = (ROOT / ".github" / "workflows" / "update-catalog.yml").read_text(encoding="utf-8")
+        self.assertIn('timezone: "America/Cancun"', workflow)
+        self.assertIn("npm run update-catalog", workflow)
+        self.assertIn("python3 -m unittest", workflow)
+        self.assertIn("contents: write", workflow)
+        self.assertNotIn("playwright", workflow.lower())
+
+    def test_buyer_comments_have_a_visible_component(self):
+        script = (ROOT / "app.js").read_text(encoding="utf-8")
+        self.assertIn("Lo que dicen compradores", script)
+        self.assertIn("review_snippets", script)
+        self.assertIn("updateHero(products[0], payload.generated_at)", script)
 
 
 if __name__ == "__main__":

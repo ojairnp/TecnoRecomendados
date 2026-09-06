@@ -1,0 +1,11 @@
+{
+  "name": "tecno-recomendados-mx",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-catalog": "node scripts/update_catalog.mjs",
+    "test:catalog": "node --test tests/update_catalog.test.mjs"
+  },
+  "dependencies": {}
+}

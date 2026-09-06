@@ -33,6 +33,123 @@ CURATION = [
 ]
 
 
+REVIEW_SNAPSHOT_DATE = "2026-09-06T00:00:00-05:00"
+REVIEW_SNAPSHOTS = {
+    "https://meli.la/1UcWwMN": {
+        "rating": 4.9, "reviews": 59581,
+        "snippets": [
+            "Amé el producto, lo recomiendo totalmente.",
+            "Están preciosos, no lastiman porque uso lentes y tienen buen sonido.",
+        ],
+    },
+    "https://meli.la/28hDkWy": {
+        "rating": 4.9, "reviews": 22664,
+        "snippets": [
+            "Me sorprendieron bastante; el sonido y los materiales son buenos.",
+            "Valió cada centavo.",
+        ],
+    },
+    "https://meli.la/1GKjVJE": {
+        "rating": 4.9, "reviews": 44756,
+        "snippets": [
+            "La pantalla es de calidad y con una imagen perfecta.",
+            "La batería dura ocho días.",
+        ],
+    },
+    "https://meli.la/2vBpq4U": {
+        "rating": 4.9, "reviews": 29034,
+        "snippets": [
+            "La calidad de sonido ya era buenísima.",
+            "Decidí volver a confiar en la marca.",
+        ],
+    },
+    "https://meli.la/2zo4yXE": {
+        "rating": 4.9, "reviews": 3690,
+        "snippets": [
+            "Su instalación es fácil y es rápida de conectar.",
+            "La calidad de imagen es excelente.",
+        ],
+    },
+    "https://meli.la/2WNBEHb": {
+        "rating": 4.9, "reviews": 6971,
+        "snippets": [
+            "Mejoró bastante comparado con la versión anterior.",
+            "Solo necesito un control remoto en lugar de dos.",
+        ],
+    },
+    "https://meli.la/2GC8Qag": {
+        "rating": 4.9, "reviews": 15411,
+        "snippets": [
+            "Es compatible con la app Xbox para jugar vía nube.",
+            "Este control es más cómodo y práctico.",
+        ],
+    },
+    "https://meli.la/1ansJko": {
+        "rating": 4.9, "reviews": 56185,
+        "snippets": [
+            "El producto es original y la app sí lo reconoce.",
+            "Ahora me matan igual, pero con estilo.",
+        ],
+    },
+    "https://meli.la/19sGzBf": {
+        "rating": 4.9, "reviews": 43596,
+        "snippets": [
+            "Es muy cómodo y ergonómico; no cansa la muñeca.",
+            "La pila que trae dura muchísimo tiempo.",
+        ],
+    },
+    "https://meli.la/1KAq2m7": {
+        "rating": 4.9, "reviews": 6028,
+        "snippets": [
+            "Pantalla nítida, colores correctos y brillantes.",
+            "No puedes contestar llamadas; no tiene bocina ni altavoz.",
+        ],
+    },
+    "https://meli.la/29FaBcN": {
+        "rating": 4.9, "reviews": 2469,
+        "snippets": [
+            "Para uso básico es perfecta.",
+            "Es la versión que no tiene para tarjeta SIM.",
+        ],
+    },
+    "https://meli.la/2JQKzNL": {
+        "rating": 4.9, "reviews": 14776,
+        "snippets": [
+            "Tiene un arranque con Windows 10 excelente.",
+            "Es un cambio tremendo a comparación del HDD.",
+        ],
+    },
+    "https://meli.la/247NpFP": {
+        "rating": 4.9, "reviews": 9860,
+        "snippets": [
+            "Un juego lleno de detalles, muy bien hecho; vale mucho la pena.",
+            "El juego vino en perfecto estado.",
+        ],
+    },
+    "https://meli.la/2QA94iZ": {
+        "rating": 4.9, "reviews": 36944,
+        "snippets": [
+            "Maximiza el espacio en tu escritorio para trabajar y jugar.",
+            "Lo compré para un uso diferente y funcionó perfectamente.",
+        ],
+    },
+    "https://meli.la/2gL5jad": {
+        "rating": 4.8, "reviews": 93,
+        "snippets": [
+            "Enciende rápido. Muy útil para las tareas básicas.",
+            "Buen equipo, solo se descarga muy rápido.",
+        ],
+    },
+    "https://meli.la/1otUMb9": {
+        "rating": 5.0, "reviews": 112,
+        "snippets": [
+            "Venía tal cual con mochila y mouse.",
+            "Es una buena laptop y, aunque no es para juegos, los corre bastante bien.",
+        ],
+    },
+}
+
+
 def main() -> None:
     research = json.loads(RESEARCH.read_text(encoding="utf-8"))
     by_link = {product["affiliate_url"]: product for product in research["products"]}
@@ -40,17 +157,20 @@ def main() -> None:
     for entry in CURATION:
         link, title, category, rating, reviews, sold, seller, official, signal, reason = entry
         source = by_link[link]
+        review_snapshot = REVIEW_SNAPSHOTS[link]
         discount_match = re.search(r"(\d+)%", source.get("discount_label") or "")
         products.append({
             "id": source["item_id"],
+            "catalog_product_id": source["catalog_product_id"],
+            "permalink": source["permalink"],
             "title": title,
             "category": category,
             "price": source["price"],
             "previous_price": source.get("previous_price"),
             "currency": source.get("currency") or "MXN",
             "discount": int(discount_match.group(1)) if discount_match else None,
-            "rating": rating,
-            "reviews": reviews,
+            "rating": review_snapshot["rating"],
+            "reviews": review_snapshot["reviews"],
             "sold": sold,
             "seller": seller,
             "official_store": official,
@@ -59,11 +179,14 @@ def main() -> None:
             "image": source["image"],
             "affiliate_url": link,
             "available": True,
+            "review_snippets": review_snapshot["snippets"],
+            "last_price_check": research["generated_at"],
+            "last_review_check": REVIEW_SNAPSHOT_DATE,
         })
     output = {
         "schema_version": 2,
         "generated_at": research["generated_at"],
-        "source_note": "Precios, disponibilidad, ventas y opiniones observados en Mercado Libre México; pueden cambiar.",
+        "source_note": "Precios y disponibilidad se verifican diariamente. Calificaciones, ventas y extractos de opiniones son una referencia editorial observada en Mercado Libre México y pueden cambiar.",
         "products": products,
     }
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

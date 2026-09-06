@@ -63,6 +63,36 @@ function money(value, currency = 'MXN') {
   }).format(value);
 }
 
+function formattedDate(value) {
+  return new Intl.DateTimeFormat('es-MX', {
+    dateStyle: 'long', timeZone: 'America/Cancun'
+  }).format(new Date(value));
+}
+
+function updateHero(product, generatedAt) {
+  const hero = document.querySelector('.hero-offer');
+  if (!hero || !product) return;
+  const title = escapeHtml(product.title);
+  const image = escapeHtml(product.image);
+  const category = escapeHtml(product.category || 'Tecnología');
+  const sellerType = product.official_store ? 'Tienda oficial' : (product.seller || 'Vendedor verificado');
+  const reviews = new Intl.NumberFormat('es-MX').format(product.reviews || 0);
+  const discount = product.discount ? `<b>-${Number(product.discount)}%</b>` : '';
+  const previous = product.previous_price
+    ? `<span>Antes ${money(product.previous_price, product.currency)}</span>`
+    : '';
+  const checked = generatedAt ? formattedDate(generatedAt) : 'hoy';
+  hero.innerHTML = `
+    <div class="hero-offer-top"><span>Oferta destacada</span>${discount}</div>
+    <img src="${image}" alt="${title}" width="520" height="420">
+    <p>${category} · ${escapeHtml(sellerType)}</p>
+    <h2>${title}</h2>
+    <div class="hero-offer-proof"><strong>★ ${product.rating}</strong><span>${reviews} opiniones</span><span>${escapeHtml(product.sold || '')}</span></div>
+    <div class="hero-offer-price"><strong>${money(product.price, product.currency)}</strong>${previous}</div>
+    <a href="${escapeHtml(product.affiliate_url)}" target="_blank" rel="noopener sponsored">Ver oferta <span>→</span></a>
+    <small>Precio revisado el ${escapeHtml(checked)}; puede cambiar.</small>`;
+}
+
 function productCard(product) {
   const title = escapeHtml(product.title);
   const image = escapeHtml(product.image);
@@ -82,6 +112,17 @@ function productCard(product) {
     ? '<span class="official-badge">Tienda verificada</span>'
     : '';
   const reviews = new Intl.NumberFormat('es-MX').format(product.reviews || 0);
+  const snippets = Array.isArray(product.review_snippets)
+    ? product.review_snippets.filter(Boolean).slice(0, 2)
+    : [];
+  const buyerComments = snippets.length
+    ? `<div class="buyer-comments">
+        <p>Lo que dicen compradores</p>
+        <blockquote>“${escapeHtml(snippets[0])}”</blockquote>
+        ${snippets[1] ? `<details><summary>Leer otra opinión</summary><blockquote>“${escapeHtml(snippets[1])}”</blockquote></details>` : ''}
+        <small>Extractos de opiniones públicas sin nombres. Consulta la ficha para ver el contexto completo.</small>
+      </div>`
+    : '';
   const searchable = normalize(`${product.title} ${product.category} ${product.seller} ${product.price_signal}`);
   return `<article class="product-card" data-product="${escapeHtml(searchable)}" data-best="${signal.includes('Mejor')}">
     <div class="product-image-wrap">
@@ -93,6 +134,7 @@ function productCard(product) {
       <h3>${title}</h3>
       <p class="product-rating" aria-label="Calificación ${product.rating} de 5 con ${reviews} opiniones"><span>★ ${product.rating}</span><b>${reviews} opiniones</b><i>· ${escapeHtml(product.sold || '')}</i></p>
       <p class="product-reason">${reason}</p>
+      ${buyerComments}
       <p class="product-seller">${seller}</p>
       <div class="price-row"><p class="product-price">${price}</p>${previous}</div>
       <a class="product-button" href="${url}" target="_blank" rel="noopener sponsored">Ver oferta en Mercado Libre <span>→</span></a>
@@ -164,10 +206,9 @@ async function loadProducts() {
     if (!products.length) return;
     grid.innerHTML = products.map(productCard).join('');
     counter.textContent = `${products.length} oportunidades con reputación comprobada.`;
+    updateHero(products[0], payload.generated_at);
     if (updatedAt && payload.generated_at) {
-      updatedAt.textContent = new Intl.DateTimeFormat('es-MX', {
-        dateStyle: 'long', timeZone: 'America/Cancun'
-      }).format(new Date(payload.generated_at));
+      updatedAt.textContent = formattedDate(payload.generated_at);
     }
     addProductStructuredData(products);
   } catch (_) {

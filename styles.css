@@ -133,6 +133,7 @@ button, input { font: inherit; }
 .product-rating { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 14px; color: var(--muted); font-size: 10px; }
 .product-rating span { color: #a06400; font-size: 12px; font-weight: 900; }.product-rating b { color: #46566b; }.product-rating i { font-style: normal; }
 .product-reason { min-height: 58px; margin: 0 0 13px; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.buyer-comments { margin: 1px 0 15px; padding: 13px; border-left: 3px solid #a9c7ff; border-radius: 0 10px 10px 0; background: #f5f8fd; }.buyer-comments > p { margin: 0 0 6px; color: var(--blue); font-size: 9px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }.buyer-comments blockquote { margin: 0; color: #46566b; font-size: 10px; font-style: italic; line-height: 1.5; }.buyer-comments details { margin-top: 8px; }.buyer-comments summary { color: var(--blue); cursor: pointer; font-size: 9px; font-weight: 800; }.buyer-comments details blockquote { margin-top: 7px; }.buyer-comments small { margin-top: 7px; color: #8a94a2; font-size: 8px; text-align: left; }
 .product-seller { margin: auto 0 5px; color: #536176; font-size: 10px; font-weight: 700; }
 .price-row { display: flex; min-height: 52px; align-items: center; gap: 10px; }
 .product-price { margin: 0; color: var(--ink); font-size: 26px; font-weight: 900; letter-spacing: -.035em; }

@@ -1,0 +1,15 @@
+# TecnoRecomendados MX
+
+> Guías y recomendaciones independientes de tecnología para compradores en México.
+
+## Contenido principal
+
+- Inicio: https://tecno-recomendados-mx.vercel.app/
+- Categorías: celulares, laptops y tablets, audio, gaming, hogar inteligente y accesorios.
+- Método editorial: utilidad real, compatibilidad, especificaciones, reputación pública y relación calidad-precio.
+- Aviso de afiliados: https://tecno-recomendados-mx.vercel.app/aviso-afiliados.html
+- Privacidad: https://tecno-recomendados-mx.vercel.app/privacidad.html
+
+## Transparencia
+
+TecnoRecomendados MX es un sitio independiente. Algunos enlaces pueden generar una comisión de afiliado sin costo adicional para el comprador. Las compras se realizan en Mercado Libre. Los precios y la disponibilidad deben confirmarse en esa plataforma.

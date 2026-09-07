@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-06T16:16:12.368Z",
+  "generated_at": "2026-09-07T14:37:45.649Z",
   "source_note": "Precios y disponibilidad se verifican diariamente. Calificaciones, ventas y extractos de opiniones son una referencia editorial observada en Mercado Libre México y pueden cambiar.",
   "products": [
     {
@@ -27,8 +27,8 @@
         "Amé el producto, lo recomiendo totalmente.",
         "Están preciosos, no lastiman porque uso lentes y tienen buen sonido."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM2332492105",
@@ -36,7 +36,7 @@
       "permalink": "https://www.mercadolibre.com.mx/audifonos-anker-soundcore-p30i-in-ear-bluetooth-inalambrico-cancelacion-de-ruido-adaptativa-soporte-para-movil-superior-bajos-potentes-llamadas-claras-corla-45-horas-de-reproducci-color-azul/p/MLM42487790",
       "title": "Audífonos Soundcore P30i con cancelación de ruido",
       "category": "Audio",
-      "price": 538.01,
+      "price": 537.99,
       "previous_price": 999,
       "currency": "MXN",
       "discount": 46,
@@ -54,8 +54,8 @@
         "Me sorprendieron bastante; el sonido y los materiales son buenos.",
         "Valió cada centavo."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM3165161014",
@@ -63,10 +63,10 @@
       "permalink": "https://www.mercadolibre.com.mx/reloj-inteligente-samsung-galaxy-fit3-amoled-de-16-pulgadas-color-rosa-liso/p/MLM70580472",
       "title": "Samsung Galaxy Fit3 AMOLED",
       "category": "Wearables",
-      "price": 649,
-      "previous_price": 999,
+      "price": 999,
+      "previous_price": null,
       "currency": "MXN",
-      "discount": 35,
+      "discount": null,
       "rating": 4.9,
       "reviews": 44756,
       "sold": "+10 mil vendidos",
@@ -81,16 +81,16 @@
         "La pantalla es de calidad y con una imagen perfecta.",
         "La batería dura ocho días."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
-      "id": "MLM6170013188",
+      "id": "MLM6158722948",
       "catalog_product_id": "MLM24519483",
       "permalink": "https://www.mercadolibre.com.mx/auriculares-inalambrico-over-ear-jbl-tune-720bt-bluetooth/p/MLM24519483",
       "title": "Audífonos JBL Tune 720BT",
       "category": "Audio",
-      "price": 850,
+      "price": 738,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -108,19 +108,19 @@
         "La calidad de sonido ya era buenísima.",
         "Decidí volver a confiar en la marca."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
-      "id": "MLM3467821246",
+      "id": "MLM5336510198",
       "catalog_product_id": "MLM21854641",
       "permalink": "https://www.mercadolibre.com.mx/tp-link-tapo-tc70-camara-de-seguridad-wifi-interior-resolucion-fhd-cobertura-360-vision-nocturna-infrarroja-deteccion-de-movimiento-audio-bidireccional-y-alarma-512gb-app-tapo/p/MLM21854641",
       "title": "Cámara TP-Link Tapo TC70 360°",
       "category": "Hogar inteligente",
-      "price": 469.98,
-      "previous_price": 999,
+      "price": 520,
+      "previous_price": null,
       "currency": "MXN",
-      "discount": 52,
+      "discount": null,
       "rating": 4.9,
       "reviews": 3690,
       "sold": "+5 mil vendidos",
@@ -135,11 +135,11 @@
         "Su instalación es fácil y es rápida de conectar.",
         "La calidad de imagen es excelente."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
-      "id": "MLM4627087828",
+      "id": "MLM2630824829",
       "catalog_product_id": "MLM52897968",
       "permalink": "https://www.mercadolibre.com.mx/roku-streaming-stick-plus-4k-con-control-con-comando-de-voz/p/MLM52897968",
       "title": "Roku Streaming Stick Plus 4K",
@@ -162,8 +162,8 @@
         "Mejoró bastante comparado con la versión anterior.",
         "Solo necesito un control remoto en lugar de dos."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM2882582687",
@@ -171,7 +171,7 @@
       "permalink": "https://www.mercadolibre.com.mx/amazon-fire-tv-stick-4k-8gb-con-pilas-control-remoto-adaptador-cable-y-hdmi-negro/p/MLM42248736",
       "title": "Amazon Fire TV Stick 4K",
       "category": "Streaming",
-      "price": 759.81,
+      "price": 779.65,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -189,19 +189,19 @@
         "Es compatible con la app Xbox para jugar vía nube.",
         "Este control es más cómodo y práctico."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
-      "id": "MLM3424645035",
+      "id": "MLM1470081020",
       "catalog_product_id": "MLM16211423",
       "permalink": "https://www.mercadolibre.com.mx/mouse-gaming-logitech-g203/p/MLM16211423",
       "title": "Mouse gaming Logitech G203",
       "category": "Gaming",
-      "price": 437,
-      "previous_price": null,
+      "price": 476,
+      "previous_price": 799,
       "currency": "MXN",
-      "discount": null,
+      "discount": 40,
       "rating": 4.9,
       "reviews": 56185,
       "sold": "+10 mil vendidos",
@@ -216,8 +216,8 @@
         "El producto es original y la app sí lo reconoce.",
         "Ahora me matan igual, pero con estilo."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM1467466144",
@@ -243,8 +243,8 @@
         "Es muy cómodo y ergonómico; no cansa la muñeca.",
         "La pila que trae dura muchísimo tiempo."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM2748605437",
@@ -270,8 +270,8 @@
         "Pantalla nítida, colores correctos y brillantes.",
         "No puedes contestar llamadas; no tiene bocina ni altavoz."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM4503306856",
@@ -297,19 +297,19 @@
         "Para uso básico es perfecta.",
         "Es la versión que no tiene para tarjeta SIM."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
-      "id": "MLM3447926881",
+      "id": "MLM3459139641",
       "catalog_product_id": "MLM26810824",
       "permalink": "https://www.mercadolibre.com.mx/interno-kingston-sa400s37960g-sata-960gb-negro/p/MLM26810824",
       "title": "SSD Kingston A400 SATA de 960 GB",
       "category": "Almacenamiento",
-      "price": 1258,
-      "previous_price": 2373,
+      "price": 1349,
+      "previous_price": 1499,
       "currency": "MXN",
-      "discount": 47,
+      "discount": 10,
       "rating": 4.9,
       "reviews": 14776,
       "sold": "+10 mil vendidos",
@@ -324,8 +324,8 @@
         "Tiene un arranque con Windows 10 excelente.",
         "Es un cambio tremendo a comparación del HDD."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM3087835290",
@@ -351,8 +351,8 @@
         "Un juego lleno de detalles, muy bien hecho; vale mucho la pena.",
         "El juego vino en perfecto estado."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM2023671732",
@@ -378,8 +378,8 @@
         "Maximiza el espacio en tu escritorio para trabajar y jugar.",
         "Lo compré para un uso diferente y funcionó perfectamente."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM5369653068",
@@ -405,8 +405,8 @@
         "Enciende rápido. Muy útil para las tareas básicas.",
         "Buen equipo, solo se descarga muy rápido."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     },
     {
       "id": "MLM5368722072",
@@ -432,13 +432,175 @@
         "Venía tal cual con mochila y mouse.",
         "Es una buena laptop y, aunque no es para juegos, los corre bastante bien."
       ],
-      "last_price_check": "2026-09-06T16:16:12.368Z",
-      "last_review_check": "2026-09-06T00:00:00-05:00"
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
+    },
+    {
+      "id": "MLM2326434085",
+      "catalog_product_id": "MLM49006175",
+      "permalink": "https://www.mercadolibre.com.mx/jbl-charge-6-bocina-portatil-bluetooth-resistente-al-agua/p/MLM49006175",
+      "title": "Bocina portátil JBL Charge 6",
+      "category": "Audio",
+      "price": 2349,
+      "previous_price": 3412,
+      "currency": "MXN",
+      "discount": 31,
+      "rating": 4.9,
+      "reviews": 22094,
+      "sold": "+10 mil vendidos",
+      "seller": "JBL",
+      "official_store": false,
+      "price_signal": "Precio destacado",
+      "reason": "Sonido potente, batería para uso prolongado y resistencia al agua en una bocina portátil con amplio respaldo de compradores.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_668182-MLA99950089989_112025-F.webp",
+      "affiliate_url": "https://meli.la/1PZbGU9",
+      "available": true,
+      "review_snippets": [
+        "El sonido es excelente, potente y se conecta con rapidez.",
+        "Funciona muy bien al aire libre y la batería tiene buena duración."
+      ],
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
+    },
+    {
+      "id": "MLM2315657869",
+      "catalog_product_id": "MLM48590241",
+      "permalink": "https://www.mercadolibre.com.mx/teclado-mecanico-gamer-aula-f99-rgb-espanol-grey-switch-blancoazulmorado-idioma-espanol-latinoamerica-alambrico/p/MLM48590241",
+      "title": "Teclado mecánico gamer AULA F99 en español",
+      "category": "Gaming",
+      "price": 1099,
+      "previous_price": 2129,
+      "currency": "MXN",
+      "discount": 48,
+      "rating": 4.9,
+      "reviews": 205,
+      "sold": "+100 vendidos",
+      "seller": "AELION",
+      "official_store": false,
+      "price_signal": "Precio destacado",
+      "reason": "Teclado mecánico compacto con pad numérico, distribución en español latinoamericano, cable removible y retroiluminación RGB.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_855703-MLA99475154676_112025-F.webp",
+      "affiliate_url": "https://meli.la/2RNmaab",
+      "available": true,
+      "review_snippets": [
+        "Las teclas se sienten suaves y la calidad de construcción es buena.",
+        "El formato compacto conserva el teclado numérico y resulta cómodo."
+      ],
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
+    },
+    {
+      "id": "MLM3982978640",
+      "catalog_product_id": "MLM19864195",
+      "permalink": "https://www.mercadolibre.com.mx/router-archer-wifi-6-hasta-1800mbps-tp-link/p/MLM19864195",
+      "title": "Router TP-Link Archer AX23 Wi-Fi 6",
+      "category": "Conectividad",
+      "price": 999,
+      "previous_price": 1099,
+      "currency": "MXN",
+      "discount": 9,
+      "rating": 4.8,
+      "reviews": 650,
+      "sold": "+100 vendidos",
+      "seller": "Tienda oficial TP-Link",
+      "official_store": true,
+      "price_signal": "Precio destacado",
+      "reason": "Router Wi-Fi 6 de doble banda con cuatro puertos LAN, firewall y control parental para renovar una red compatible.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_646907-MLA100010518737_122025-F.webp",
+      "affiliate_url": "https://meli.la/2Ewc9kx",
+      "available": true,
+      "review_snippets": [
+        "La red de 5 GHz mantiene buena velocidad y estabilidad.",
+        "Es fácil de configurar y permite separar las dos bandas."
+      ],
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
+    },
+    {
+      "id": "MLM3841743830",
+      "catalog_product_id": "MLM47803684",
+      "permalink": "https://www.mercadolibre.com.mx/pack-x3-sistema-wi-fi-6-mesh-halo-h60x-para-todo-el-hogar-mercusys/p/MLM47803684",
+      "title": "Sistema Wi-Fi 6 Mesh Mercusys Halo H60X, paquete de 3",
+      "category": "Conectividad",
+      "price": 1599,
+      "previous_price": 1999,
+      "currency": "MXN",
+      "discount": 20,
+      "rating": 4.8,
+      "reviews": 968,
+      "sold": "+100 vendidos",
+      "seller": "Tienda oficial Mercusys",
+      "official_store": true,
+      "price_signal": "Precio destacado",
+      "reason": "Tres nodos Wi-Fi 6 para mejorar cobertura y estabilidad en hogares donde un solo router no alcanza bien.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_682677-MLA83334298848_042025-F.webp",
+      "affiliate_url": "https://meli.la/1vYtFiv",
+      "available": true,
+      "review_snippets": [
+        "La configuración es sencilla y la aplicación resulta práctica.",
+        "Mejoró la cobertura, aunque la distancia entre nodos sí importa."
+      ],
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
+    },
+    {
+      "id": "MLM3313151014",
+      "catalog_product_id": "MLM36690529",
+      "permalink": "https://www.mercadolibre.com.mx/power-bank-portatil-adata-20000mah-p20000q-carga-rapida-usbc-rojo/p/MLM36690529",
+      "title": "Power bank ADATA P20000Q de 20,000 mAh",
+      "category": "Accesorios",
+      "price": 629,
+      "previous_price": null,
+      "currency": "MXN",
+      "discount": null,
+      "rating": 4.8,
+      "reviews": 242,
+      "sold": "+1,000 vendidos",
+      "seller": "SVENSKA",
+      "official_store": false,
+      "price_signal": "Buena reputación",
+      "reason": "Batería portátil de gran capacidad con USB-C y varios puertos; útil para viajes y emergencias, aunque su carga rápida depende del uso de los puertos.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_680644-MLA99993748923_112025-F.webp",
+      "affiliate_url": "https://meli.la/26o3ev1",
+      "available": true,
+      "review_snippets": [
+        "Permite varias cargas del teléfono y es útil para viajar.",
+        "Puede cargar varios dispositivos, pero compartir puertos reduce la carga rápida."
+      ],
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
+    },
+    {
+      "id": "MLM3570161950",
+      "catalog_product_id": "MLM41937292",
+      "permalink": "https://www.mercadolibre.com.mx/camara-de-seguridad-exterior-wifi-imou-dk7-3mp-audio-bidireccional-vision-nocturna-a-todo-color-color-blanco-deteccion-ai-de-humanos-y-vehiculos-alarma-de-luz-y-sonido-resistente-al-agua-ip66/p/MLM41937292",
+      "title": "Cámara exterior Wi-Fi Imou DK7 de 3 MP",
+      "category": "Hogar inteligente",
+      "price": 646.62,
+      "previous_price": 923.75,
+      "currency": "MXN",
+      "discount": 30,
+      "rating": 4.8,
+      "reviews": 973,
+      "sold": "+10 mil vendidos",
+      "seller": "Tienda oficial Imou",
+      "official_store": true,
+      "price_signal": "Precio destacado",
+      "reason": "Cámara motorizada para exterior con audio bidireccional, visión nocturna a color, detección inteligente y protección IP66.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_964821-MLA99985882759_112025-F.webp",
+      "affiliate_url": "https://meli.la/1GTHdWm",
+      "available": true,
+      "review_snippets": [
+        "La imagen es clara de día y de noche, con buena conexión Wi-Fi.",
+        "La detección de movimiento y el audio ayudan a vigilar exteriores."
+      ],
+      "last_price_check": "2026-09-07T14:37:45.649Z",
+      "last_review_check": "2026-09-07T00:00:00-05:00"
     }
   ],
   "sync": {
-    "price_success": 16,
-    "price_total": 16,
+    "price_success": 22,
+    "price_total": 22,
     "buyer_comments": "editorial_snapshot"
   }
 }

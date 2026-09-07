@@ -176,7 +176,7 @@ function productCard(product) {
         <p>Lo que dicen compradores</p>
         <blockquote>“${escapeHtml(snippets[0])}”</blockquote>
         ${snippets[1] ? `<details><summary>Leer otra opinión</summary><blockquote>“${escapeHtml(snippets[1])}”</blockquote></details>` : ''}
-        <small>Extractos de opiniones públicas sin nombres. Consulta la ficha para ver el contexto completo.</small>
+        <small>Comentarios públicos resumidos sin nombres. Consulta la ficha para ver el contexto completo.</small>
       </div>`
     : '';
   const searchable = normalize(`${product.title} ${product.category} ${product.seller} ${product.price_signal}`);

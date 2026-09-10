@@ -36,10 +36,20 @@ CURATION = [
     ("https://meli.la/1vYtFiv", "Sistema Wi-Fi 6 Mesh Mercusys Halo H60X, paquete de 3", "Conectividad", 4.8, 968, "+100 vendidos", "Tienda oficial Mercusys", True, "Precio destacado", "Tres nodos Wi-Fi 6 para mejorar cobertura y estabilidad en hogares donde un solo router no alcanza bien."),
     ("https://meli.la/26o3ev1", "Power bank ADATA P20000Q de 20,000 mAh", "Accesorios", 4.8, 242, "+1,000 vendidos", "SVENSKA", False, "Buena reputación", "Batería portátil de gran capacidad con USB-C y varios puertos; útil para viajes y emergencias, aunque su carga rápida depende del uso de los puertos."),
     ("https://meli.la/1GTHdWm", "Cámara exterior Wi-Fi Imou DK7 de 3 MP", "Hogar inteligente", 4.8, 973, "+10 mil vendidos", "Tienda oficial Imou", True, "Precio destacado", "Cámara motorizada para exterior con audio bidireccional, visión nocturna a color, detección inteligente y protección IP66."),
+    ("https://meli.la/2boUWLq", "Webcam Logitech C920 Full HD", "Videollamadas", 4.9, 1990, "+1,000 vendidos", "Tienda oficial Logitech", True, "Oferta destacada", "Video Full HD a 30 fps, enfoque automático y dos micrófonos para videollamadas, clases y transmisiones."),
+    ("https://meli.la/1DizkH4", "Xiaomi Redmi Buds 6 Play", "Audio", 4.8, 212422, "+5 mil vendidos", "Mercado Libre", False, "Precio accesible", "Audífonos compactos con Bluetooth 5.4, estuche de carga y una relación calidad-precio respaldada por miles de compradores."),
+    ("https://meli.la/28prqSy", "Control inalámbrico 8BitDo Ultimate 2C", "Gaming", 4.9, 1879, "+500 vendidos", "Mercado Libre", False, "Buena reputación", "Control para PC y Android con joysticks de efecto Hall, receptor USB y respuesta rápida para reducir el riesgo de drift."),
+    ("https://meli.la/1SraBRS", "Hub USB-C Ugreen 6 en 1", "Accesorios", 4.9, 157, "+1,000 vendidos", "Tienda oficial Ugreen", True, "Oferta destacada", "Amplía una laptop compatible con HDMI 4K a 30 Hz, tres USB-A y alimentación USB-C en un cuerpo compacto."),
+    ("https://meli.la/2m58JFu", "Focos inteligentes TP-Link Tapo L530E, paquete de 4", "Hogar inteligente", 4.8, 142, "+100 vendidos", "Mercado Libre", False, "Precio competitivo", "Cuatro focos RGB regulables con control desde la aplicación Tapo y compatibilidad con Alexa y Google Assistant."),
+    ("https://meli.la/1Y4WW4U", "Adaptador Wi-Fi USB TP-Link Archer T3U Plus", "Conectividad", 4.8, 684, "+1,000 vendidos", "Mercado Libre", False, "Precio competitivo", "Adaptador USB 3.0 de doble banda AC1300 con antena ajustable para mejorar la conectividad de una computadora compatible."),
+    ("https://meli.la/2VSkGqF", "Bocina portátil Xiaomi Sound Pocket", "Audio", 4.8, 279, "+10 mil vendidos", "Tienda oficial Xiaomi", True, "Oferta destacada", "Bocina compacta de 5 W, resistente al agua y con batería recargable para escuchar audio en espacios pequeños o exteriores."),
+    ("https://meli.la/24niEbF", "Enchufe inteligente TP-Link Tapo P100", "Hogar inteligente", 4.8, 135, "+1,000 vendidos", "Tienda oficial TP-Link", True, "Oferta destacada", "Permite encender, apagar y programar dispositivos compatibles desde Tapo, Alexa o Google Assistant sin concentrador adicional."),
+    ("https://meli.la/2hQPuxN", "Cámara exterior TP-Link Tapo C500", "Hogar inteligente", 4.8, 25470, "+50 mil vendidos", "Tienda oficial TP-Link", True, "Oferta destacada", "Cámara Full HD con cobertura de 360 grados, visión nocturna a color, audio bidireccional y protección IP65."),
+    ("https://meli.la/1WG5usZ", "Monitor LG 24MR400-W IPS de 24 pulgadas", "Monitores", 4.9, 307, "+1,000 vendidos", "Tienda oficial LG", True, "Oferta destacada", "Panel IPS Full HD de 100 Hz con FreeSync, HDMI y montaje VESA para trabajo, estudio y juego casual."),
 ]
 
 
-REVIEW_SNAPSHOT_DATE = "2026-09-07T00:00:00-05:00"
+REVIEW_SNAPSHOT_DATE = "2026-09-10T00:00:00-05:00"
 REVIEW_SNAPSHOTS = {
     "https://meli.la/1UcWwMN": {
         "rating": 4.9, "reviews": 59581,
@@ -195,6 +205,76 @@ REVIEW_SNAPSHOTS = {
             "La detección de movimiento y el audio ayudan a vigilar exteriores.",
         ],
     },
+    "https://meli.la/2boUWLq": {
+        "rating": 4.9, "reviews": 1990,
+        "snippets": [
+            "La imagen se ve clara y la instalación resulta sencilla para videollamadas y clases.",
+            "El micrófono cumple, aunque para grabaciones exigentes conviene usar uno dedicado.",
+        ],
+    },
+    "https://meli.la/1DizkH4": {
+        "rating": 4.8, "reviews": 212422,
+        "snippets": [
+            "El sonido tiene buenos graves y los audífonos son cómodos durante varias horas.",
+            "La batería dura bien y el emparejamiento con el teléfono es rápido.",
+        ],
+    },
+    "https://meli.la/28prqSy": {
+        "rating": 4.9, "reviews": 1879,
+        "snippets": [
+            "Los joysticks de efecto Hall se sienten precisos y los materiales son resistentes.",
+            "La conexión en PC es rápida y la batería ofrece varias sesiones de juego.",
+        ],
+    },
+    "https://meli.la/1SraBRS": {
+        "rating": 4.9, "reviews": 157,
+        "snippets": [
+            "Permite conectar pantalla y varios accesorios al mismo tiempo sin complicaciones.",
+            "La construcción se siente sólida y cumple con los puertos anunciados.",
+        ],
+    },
+    "https://meli.la/2m58JFu": {
+        "rating": 4.8, "reviews": 142,
+        "snippets": [
+            "Son fáciles de configurar, agrupar y controlar con el asistente de voz.",
+            "El brillo es bueno; después de un apagón puede ser necesario volver a enlazarlos.",
+        ],
+    },
+    "https://meli.la/1Y4WW4U": {
+        "rating": 4.8, "reviews": 684,
+        "snippets": [
+            "Mejoró la señal incluso a varios metros del módem y atravesando paredes.",
+            "Windows lo reconoció rápidamente y la conexión se mantuvo estable.",
+        ],
+    },
+    "https://meli.la/2VSkGqF": {
+        "rating": 4.8, "reviews": 279,
+        "snippets": [
+            "El sonido sorprende para su tamaño, con medios claros y graves agradables.",
+            "Es cómoda de transportar y la batería tiene buena duración para uso diario.",
+        ],
+    },
+    "https://meli.la/24niEbF": {
+        "rating": 4.8, "reviews": 135,
+        "snippets": [
+            "La aplicación es sencilla y permite programar horarios de encendido y apagado.",
+            "Se integra con Alexa sin dificultad y resulta útil para automatizaciones básicas.",
+        ],
+    },
+    "https://meli.la/2hQPuxN": {
+        "rating": 4.8, "reviews": 25470,
+        "snippets": [
+            "La imagen es clara de día y de noche, y la aplicación organiza bien las grabaciones.",
+            "La detección es sensible y puede generar demasiadas notificaciones si no se ajusta.",
+        ],
+    },
+    "https://meli.la/1WG5usZ": {
+        "rating": 4.9, "reviews": 307,
+        "snippets": [
+            "Los colores se ven vivos y el tamaño facilita trabajar con varias ventanas.",
+            "Cumple con los 100 Hz; conviene ajustar el brillo inicial al gusto.",
+        ],
+    },
 }
 
 
@@ -207,10 +287,16 @@ def main() -> None:
         source = by_link[link]
         review_snapshot = REVIEW_SNAPSHOTS[link]
         discount_match = re.search(r"(\d+)%", source.get("discount_label") or "")
+        catalog_product_id = source["catalog_product_id"] or re.search(
+            r"/(MLMU?\d+)", source["permalink"]
+        ).group(1)
+        permalink = source["permalink"]
+        if not permalink.startswith("https://www.mercadolibre.com.mx/"):
+            permalink = f"https://www.mercadolibre.com.mx/p/{catalog_product_id}"
         products.append({
             "id": source["item_id"],
-            "catalog_product_id": source["catalog_product_id"],
-            "permalink": source["permalink"],
+            "catalog_product_id": catalog_product_id,
+            "permalink": permalink,
             "title": title,
             "category": category,
             "price": source["price"],

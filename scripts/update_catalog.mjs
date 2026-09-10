@@ -22,6 +22,24 @@ export function isAllowedUrl(value) {
 }
 
 
+export function canonicalPermalink(metadata, fallback) {
+  if (!metadata?.url) return fallback;
+  const candidate = metadata.url.startsWith('https://')
+    ? metadata.url
+    : `https://${metadata.url}`;
+  try {
+    const parsed = new URL(candidate);
+    if (parsed.protocol === 'https:' && MARKET_HOSTS.has(parsed.hostname)) return candidate;
+  } catch {
+    return fallback;
+  }
+  if (metadata.product_id) {
+    return `https://www.mercadolibre.com.mx/p/${metadata.product_id}`;
+  }
+  return fallback;
+}
+
+
 export function extractAssignedJson(html, marker = '_n.ctx.r=') {
   const markerIndex = html.indexOf(marker);
   if (markerIndex < 0) throw new Error('No se encontró el bloque estructurado de Mercado Libre');
@@ -134,7 +152,7 @@ async function refreshPrice(product, checkedAt) {
     ...currentProduct,
     id: metadata.id,
     catalog_product_id: metadata.product_id || product.catalog_product_id,
-    permalink: metadata.url ? `https://${metadata.url}` : product.permalink,
+    permalink: canonicalPermalink(metadata, product.permalink),
     price: current.value,
     previous_price: previous.value ?? null,
     currency: current.currency || product.currency || 'MXN',

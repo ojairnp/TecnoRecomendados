@@ -46,6 +46,11 @@ CURATION = [
     ("https://meli.la/24niEbF", "Enchufe inteligente TP-Link Tapo P100", "Hogar inteligente", 4.8, 135, "+1,000 vendidos", "Tienda oficial TP-Link", True, "Oferta destacada", "Permite encender, apagar y programar dispositivos compatibles desde Tapo, Alexa o Google Assistant sin concentrador adicional."),
     ("https://meli.la/2hQPuxN", "Cámara exterior TP-Link Tapo C500", "Hogar inteligente", 4.8, 25470, "+50 mil vendidos", "Tienda oficial TP-Link", True, "Oferta destacada", "Cámara Full HD con cobertura de 360 grados, visión nocturna a color, audio bidireccional y protección IP65."),
     ("https://meli.la/1WG5usZ", "Monitor LG 24MR400-W IPS de 24 pulgadas", "Monitores", 4.9, 307, "+1,000 vendidos", "Tienda oficial LG", True, "Oferta destacada", "Panel IPS Full HD de 100 Hz con FreeSync, HDMI y montaje VESA para trabajo, estudio y juego casual."),
+    ("https://meli.la/2e9ahbx", "Teclado Logitech Pebble Keys 2 K380s", "Accesorios", 4.9, 8477, "+1,000 vendidos", "Tienda oficial Logitech", True, "Oferta destacada", "Teclado Bluetooth compacto y silencioso que permite alternar entre tres dispositivos para estudiar o trabajar."),
+    ("https://meli.la/1asgmcT", "Micrófono USB Maono DGM20 RGB", "Audio", 4.8, 2133, "+5 mil vendidos", "Tienda oficial MAONO", True, "Oferta destacada", "Micrófono cardioide con cancelación de ruido, control de ganancia, monitoreo y conexión USB para streaming y videollamadas."),
+    ("https://meli.la/1YeqyKE", "Switch TP-Link TL-SG105 Gigabit de 5 puertos", "Conectividad", 4.9, 2763, "+5 mil vendidos", "Tienda oficial TP-Link", True, "Buena reputación", "Amplía una red cableada con cinco puertos gigabit, instalación directa y carcasa metálica compacta."),
+    ("https://meli.la/2R4SzoV", "Cargador Samsung GaN de 25 W USB-C", "Accesorios", 4.9, 1873, "+10 mil vendidos", "Mercado Libre", False, "Precio competitivo", "Cargador compacto con Power Delivery y PPS para carga rápida de equipos Samsung compatibles; no incluye cable."),
+    ("https://meli.la/2mQiPzT", "Audífonos HyperX Cloud Stinger 2 Core", "Gaming", 4.8, 2668, "+1,000 vendidos", "LA FUENTE INFORMÁTICA", False, "Oferta destacada", "Audífonos alámbricos ligeros con micrófono para jugar en PC o consola; una opción accesible con amplio respaldo de compradores."),
 ]
 
 
@@ -273,6 +278,41 @@ REVIEW_SNAPSHOTS = {
         "snippets": [
             "Los colores se ven vivos y el tamaño facilita trabajar con varias ventanas.",
             "Cumple con los 100 Hz; conviene ajustar el brillo inicial al gusto.",
+        ],
+    },
+    "https://meli.la/2e9ahbx": {
+        "rating": 4.9, "reviews": 8477,
+        "snippets": [
+            "Se conecta con facilidad a varios dispositivos y sus teclas resultan silenciosas.",
+            "El formato compacto facilita transportarlo; conviene revisar la distribución elegida.",
+        ],
+    },
+    "https://meli.la/1asgmcT": {
+        "rating": 4.8, "reviews": 2133,
+        "snippets": [
+            "El audio se percibe claro y la cancelación de ruido ayuda a aislar la voz.",
+            "Es fácil de configurar; la ganancia y el monitoreo permiten ajustar la grabación.",
+        ],
+    },
+    "https://meli.la/1YeqyKE": {
+        "rating": 4.9, "reviews": 2763,
+        "snippets": [
+            "La carcasa metálica se siente sólida y mantiene estable la conexión gigabit.",
+            "La instalación es directa: basta conectar los cables para comenzar a usarlo.",
+        ],
+    },
+    "https://meli.la/2R4SzoV": {
+        "rating": 4.9, "reviews": 1873,
+        "snippets": [
+            "La carga rápida funciona bien con equipos Samsung compatibles y sin calentamiento excesivo.",
+            "No incluye cable USB-C; hay que considerar ese accesorio por separado.",
+        ],
+    },
+    "https://meli.la/2mQiPzT": {
+        "rating": 4.8, "reviews": 2668,
+        "snippets": [
+            "Son ligeros y cómodos para sesiones de juego, con buen aislamiento.",
+            "El audio cumple por el precio; algunos compradores prefieren graves más fuertes.",
         ],
     },
 }

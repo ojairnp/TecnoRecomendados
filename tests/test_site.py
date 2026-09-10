@@ -46,8 +46,8 @@ class SiteTests(unittest.TestCase):
     def test_sitemap_is_valid_xml(self):
         ET.parse(ROOT / "sitemap.xml")
 
-    def test_curated_catalog_has_thirty_two_products(self):
-        self.assertEqual(len(self.products), 32)
+    def test_curated_catalog_has_thirty_seven_products(self):
+        self.assertEqual(len(self.products), 37)
 
     def test_affiliate_links_are_unique_and_preserved(self):
         links = [product["affiliate_url"] for product in self.products]

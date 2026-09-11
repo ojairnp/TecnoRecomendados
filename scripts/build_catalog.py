@@ -38,7 +38,6 @@ CURATION = [
     ("https://meli.la/1GTHdWm", "Cámara exterior Wi-Fi Imou DK7 de 3 MP", "Hogar inteligente", 4.8, 973, "+10 mil vendidos", "Tienda oficial Imou", True, "Precio destacado", "Cámara motorizada para exterior con audio bidireccional, visión nocturna a color, detección inteligente y protección IP66."),
     ("https://meli.la/2boUWLq", "Webcam Logitech C920 Full HD", "Videollamadas", 4.9, 1990, "+1,000 vendidos", "Tienda oficial Logitech", True, "Oferta destacada", "Video Full HD a 30 fps, enfoque automático y dos micrófonos para videollamadas, clases y transmisiones."),
     ("https://meli.la/1DizkH4", "Xiaomi Redmi Buds 6 Play", "Audio", 4.8, 212422, "+5 mil vendidos", "Mercado Libre", False, "Precio accesible", "Audífonos compactos con Bluetooth 5.4, estuche de carga y una relación calidad-precio respaldada por miles de compradores."),
-    ("https://meli.la/28prqSy", "Control inalámbrico 8BitDo Ultimate 2C", "Gaming", 4.9, 1879, "+500 vendidos", "Mercado Libre", False, "Buena reputación", "Control para PC y Android con joysticks de efecto Hall, receptor USB y respuesta rápida para reducir el riesgo de drift."),
     ("https://meli.la/1SraBRS", "Hub USB-C Ugreen 6 en 1", "Accesorios", 4.9, 157, "+1,000 vendidos", "Tienda oficial Ugreen", True, "Oferta destacada", "Amplía una laptop compatible con HDMI 4K a 30 Hz, tres USB-A y alimentación USB-C en un cuerpo compacto."),
     ("https://meli.la/2m58JFu", "Focos inteligentes TP-Link Tapo L530E, paquete de 4", "Hogar inteligente", 4.8, 142, "+100 vendidos", "Mercado Libre", False, "Precio competitivo", "Cuatro focos RGB regulables con control desde la aplicación Tapo y compatibilidad con Alexa y Google Assistant."),
     ("https://meli.la/1Y4WW4U", "Adaptador Wi-Fi USB TP-Link Archer T3U Plus", "Conectividad", 4.8, 684, "+1,000 vendidos", "Mercado Libre", False, "Precio competitivo", "Adaptador USB 3.0 de doble banda AC1300 con antena ajustable para mejorar la conectividad de una computadora compatible."),
@@ -51,10 +50,15 @@ CURATION = [
     ("https://meli.la/1YeqyKE", "Switch TP-Link TL-SG105 Gigabit de 5 puertos", "Conectividad", 4.9, 2763, "+5 mil vendidos", "Tienda oficial TP-Link", True, "Buena reputación", "Amplía una red cableada con cinco puertos gigabit, instalación directa y carcasa metálica compacta."),
     ("https://meli.la/2R4SzoV", "Cargador Samsung GaN de 25 W USB-C", "Accesorios", 4.9, 1873, "+10 mil vendidos", "Mercado Libre", False, "Precio competitivo", "Cargador compacto con Power Delivery y PPS para carga rápida de equipos Samsung compatibles; no incluye cable."),
     ("https://meli.la/2mQiPzT", "Audífonos HyperX Cloud Stinger 2 Core", "Gaming", 4.8, 2668, "+1,000 vendidos", "LA FUENTE INFORMÁTICA", False, "Oferta destacada", "Audífonos alámbricos ligeros con micrófono para jugar en PC o consola; una opción accesible con amplio respaldo de compradores."),
+    ("https://meli.la/26bsPra", "Webcam Logitech Brio 100 Full HD", "Videollamadas", 4.8, 6655, "+5 mil vendidos", "Tienda oficial Logitech", True, "Oferta destacada", "Webcam 1080p con corrección automática de luz, micrófono y tapa de privacidad para clases y reuniones."),
+    ("https://meli.la/1FmDSVB", "Bocina Soundcore Select 4 Go", "Audio", 4.9, 4602, "+5 mil vendidos", "Tienda oficial Soundcore", True, "Oferta destacada", "Bocina compacta de 5 W con protección IP67, hasta 20 horas de batería y sonido configurable desde la aplicación."),
+    ("https://meli.la/12nCyhu", "Cargador Ugreen Nexode GaN de 65 W", "Accesorios", 4.9, 3145, "+10 mil vendidos", "Home Security", False, "Oferta destacada", "Cargador compacto con dos puertos USB-C y uno USB-A para equipos compatibles; la potencia se distribuye al conectar varios dispositivos."),
+    ("https://meli.la/1syad5R", "Amazon Echo Pop con Alexa", "Hogar inteligente", 4.9, 108879, "+100 mil vendidos", "Tienda oficial Coolbox", True, "Oferta destacada", "Asistente compacto para música, recordatorios y control por voz de dispositivos inteligentes compatibles."),
+    ("https://meli.la/2QUUKCK", "Xiaomi Smart Band 9 Active", "Wearables", 4.8, 20417, "+10 mil vendidos", "Tienda oficial Xiaomi", True, "Precio destacado", "Banda ligera con seguimiento de actividad, resistencia al agua y batería de larga duración para uso cotidiano."),
 ]
 
 
-REVIEW_SNAPSHOT_DATE = "2026-09-10T00:00:00-05:00"
+REVIEW_SNAPSHOT_DATE = "2026-09-11T00:00:00-05:00"
 REVIEW_SNAPSHOTS = {
     "https://meli.la/1UcWwMN": {
         "rating": 4.9, "reviews": 59581,
@@ -224,13 +228,6 @@ REVIEW_SNAPSHOTS = {
             "La batería dura bien y el emparejamiento con el teléfono es rápido.",
         ],
     },
-    "https://meli.la/28prqSy": {
-        "rating": 4.9, "reviews": 1879,
-        "snippets": [
-            "Los joysticks de efecto Hall se sienten precisos y los materiales son resistentes.",
-            "La conexión en PC es rápida y la batería ofrece varias sesiones de juego.",
-        ],
-    },
     "https://meli.la/1SraBRS": {
         "rating": 4.9, "reviews": 157,
         "snippets": [
@@ -313,6 +310,41 @@ REVIEW_SNAPSHOTS = {
         "snippets": [
             "Son ligeros y cómodos para sesiones de juego, con buen aislamiento.",
             "El audio cumple por el precio; algunos compradores prefieren graves más fuertes.",
+        ],
+    },
+    "https://meli.la/26bsPra": {
+        "rating": 4.8, "reviews": 6655,
+        "snippets": [
+            "La imagen es clara para videollamadas y la instalación resulta sencilla.",
+            "La tapa de privacidad es práctica; el video está limitado a 30 cuadros por segundo.",
+        ],
+    },
+    "https://meli.la/1FmDSVB": {
+        "rating": 4.9, "reviews": 4602,
+        "snippets": [
+            "El sonido conserva buena claridad incluso a volumen alto y la batería dura bastante.",
+            "Es ligera y resistente al agua; sus 5 W están pensados para espacios pequeños.",
+        ],
+    },
+    "https://meli.la/12nCyhu": {
+        "rating": 4.9, "reviews": 3145,
+        "snippets": [
+            "Se siente compacto y sólido, y permite cargar teléfonos y computadoras compatibles.",
+            "Al utilizar varios puertos se divide la potencia y algunos compradores reportan calentamiento.",
+        ],
+    },
+    "https://meli.la/1syad5R": {
+        "rating": 4.9, "reviews": 108879,
+        "snippets": [
+            "La configuración es sencilla y los micrófonos responden bien en una habitación.",
+            "Necesita permanecer conectado a corriente y su sonido es menos potente que un Echo Dot.",
+        ],
+    },
+    "https://meli.la/2QUUKCK": {
+        "rating": 4.8, "reviews": 20417,
+        "snippets": [
+            "La correa resulta cómoda y la batería tiene buena duración para el uso diario.",
+            "No incluye GPS y la autonomía real depende de las funciones activadas.",
         ],
     },
 }

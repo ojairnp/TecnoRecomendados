@@ -2,6 +2,15 @@ name: Actualizar precios diarios
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-catalog.yml"
+      - "scripts/update_catalog.mjs"
+      - "tests/**"
+      - "package.json"
+      - "package-lock.json"
   schedule:
     - cron: "23 6 * * *"
       timezone: "America/Cancun"

@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from scripts.research_products import is_allowed_url
+from scripts.build_catalog import CURATION
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -46,8 +47,8 @@ class SiteTests(unittest.TestCase):
     def test_sitemap_is_valid_xml(self):
         ET.parse(ROOT / "sitemap.xml")
 
-    def test_curated_catalog_has_forty_one_products(self):
-        self.assertEqual(len(self.products), 41)
+    def test_curated_catalog_matches_the_editorial_selection(self):
+        self.assertEqual(len(self.products), len(CURATION))
 
     def test_affiliate_links_are_unique_and_preserved(self):
         links = [product["affiliate_url"] for product in self.products]

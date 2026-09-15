@@ -12,6 +12,9 @@ const SHORT_HOSTS = new Set(['meli.la', 'mercado.li']);
 const MARKET_HOSTS = new Set(['mercadolibre.com.mx', 'www.mercadolibre.com.mx']);
 
 
+export class ProductUnavailableError extends Error {}
+
+
 export function isAllowedUrl(value) {
   try {
     const url = new URL(value);
@@ -108,6 +111,9 @@ async function fetchOfficialPage(initialUrl, maxRedirects = 10) {
       current = new URL(location, current).href;
       continue;
     }
+    if (response.status === 404 || response.status === 410) {
+      throw new ProductUnavailableError(`Mercado Libre respondió ${response.status}`);
+    }
     if (!response.ok) throw new Error(`Mercado Libre respondió ${response.status}`);
     return { html: await response.text(), finalUrl: current };
   }
@@ -136,9 +142,39 @@ export function extractReviewSnippet(articleText, limit = 230) {
 }
 
 
+export function isExplicitlyUnavailable(html) {
+  return /(?:este producto|esta publicaci[oó]n) no est[aá] disponible|publicaci[oó]n pausada|producto sin stock/i.test(html);
+}
+
+
+export function preserveProductAfterRefreshError(product, checkedAt, error) {
+  if (error instanceof ProductUnavailableError) {
+    return {
+      ...product,
+      available: false,
+      last_price_error: checkedAt,
+      last_price_error_message: error.message.slice(0, 180)
+    };
+  }
+  return {
+    ...product,
+    last_price_error: checkedAt,
+    last_price_error_message: error.message.slice(0, 180)
+  };
+}
+
+
 async function refreshPrice(product, checkedAt) {
   const { html } = await fetchOfficialPage(product.affiliate_url);
-  const card = findFeaturedCard(extractAssignedJson(html));
+  let card;
+  try {
+    card = findFeaturedCard(extractAssignedJson(html));
+  } catch (error) {
+    if (isExplicitlyUnavailable(html)) {
+      throw new ProductUnavailableError('Mercado Libre indica que la publicación no está disponible');
+    }
+    throw error;
+  }
   const metadata = card.metadata || {};
   const price = component(card, 'price');
   const current = price.current_price || {};
@@ -146,7 +182,11 @@ async function refreshPrice(product, checkedAt) {
   const discountText = price.discount_label?.text || '';
   const discount = discountText.match(/(\d+)%/);
   if (!metadata.id || !current.value) throw new Error('La ficha no contiene ID y precio vigente');
-  const { last_price_error: _previousError, ...currentProduct } = product;
+  const {
+    last_price_error: _previousError,
+    last_price_error_message: _previousErrorMessage,
+    ...currentProduct
+  } = product;
 
   return {
     ...currentProduct,
@@ -194,7 +234,7 @@ async function main() {
       return refreshed;
     } catch (error) {
       priceErrors.push(`${product.id}: ${error.message}`);
-      return { ...product, available: false, last_price_error: checkedAt };
+      return preserveProductAfterRefreshError(product, checkedAt, error);
     }
   });
 

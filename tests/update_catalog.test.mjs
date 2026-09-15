@@ -1,7 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { canonicalPermalink, extractAssignedJson, extractReviewSnippet, isAllowedUrl, parsePublicMetrics } from '../scripts/update_catalog.mjs';
+import {
+  ProductUnavailableError,
+  canonicalPermalink,
+  extractAssignedJson,
+  extractReviewSnippet,
+  isAllowedUrl,
+  isExplicitlyUnavailable,
+  parsePublicMetrics,
+  preserveProductAfterRefreshError,
+} from '../scripts/update_catalog.mjs';
 
 
 test('solo permite enlaces HTTPS oficiales', () => {
@@ -36,4 +45,27 @@ test('normaliza permalinks alternos al producto oficial', () => {
     canonicalPermalink({ url: 'www.mercadolibre.com.mx/producto/p/MLM123', product_id: 'MLM123' }, fallback),
     'https://www.mercadolibre.com.mx/producto/p/MLM123',
   );
+});
+
+test('un fallo temporal conserva el último precio y la disponibilidad confirmada', () => {
+  const product = { id: 'MLM1', price: 499, available: true };
+  const result = preserveProductAfterRefreshError(
+    product,
+    '2026-09-15T12:00:00.000Z',
+    new Error('No se encontró la ficha destacada del producto'),
+  );
+  assert.equal(result.price, 499);
+  assert.equal(result.available, true);
+  assert.equal(result.last_price_error, '2026-09-15T12:00:00.000Z');
+});
+
+test('solo una publicación explícitamente no disponible cambia available a false', () => {
+  assert.equal(isExplicitlyUnavailable('<h1>Este producto no está disponible</h1>'), true);
+  assert.equal(isExplicitlyUnavailable('<h1>Producto con nuevo diseño</h1>'), false);
+  const result = preserveProductAfterRefreshError(
+    { id: 'MLM2', price: 299, available: true },
+    '2026-09-15T12:00:00.000Z',
+    new ProductUnavailableError('Publicación no disponible'),
+  );
+  assert.equal(result.available, false);
 });

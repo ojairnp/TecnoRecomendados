@@ -55,6 +55,11 @@ CURATION = [
     ("https://meli.la/12nCyhu", "Cargador Ugreen Nexode GaN de 65 W", "Accesorios", 4.9, 3145, "+10 mil vendidos", "Home Security", False, "Oferta destacada", "Cargador compacto con dos puertos USB-C y uno USB-A para equipos compatibles; la potencia se distribuye al conectar varios dispositivos."),
     ("https://meli.la/1syad5R", "Amazon Echo Pop con Alexa", "Hogar inteligente", 4.9, 108879, "+100 mil vendidos", "Tienda oficial Coolbox", True, "Oferta destacada", "Asistente compacto para música, recordatorios y control por voz de dispositivos inteligentes compatibles."),
     ("https://meli.la/2QUUKCK", "Xiaomi Smart Band 9 Active", "Wearables", 4.8, 20417, "+10 mil vendidos", "Tienda oficial Xiaomi", True, "Precio destacado", "Banda ligera con seguimiento de actividad, resistencia al agua y batería de larga duración para uso cotidiano."),
+    ("https://meli.la/1PGh198", "Cable Ugreen USB-C de 240 W y 2 metros", "Accesorios", 4.9, 428, "+1,000 vendidos", "Tienda oficial Ugreen", True, "Oferta destacada", "Cable USB-C reforzado con Power Delivery 3.1 para cargar equipos compatibles; sus 240 W requieren un cargador y dispositivo adecuados."),
+    ("https://meli.la/18Ymczo", "Panel LED Neewer 660 Pro RGB", "Creación de contenido", 4.9, 123, "+1,000 vendidos", "NEEWERPHOTOMX", False, "Oferta destacada", "Panel RGB de 50 W con control por aplicación, temperatura ajustable y alto CRI para fotografía, video y streaming."),
+    ("https://meli.la/2kSnh5A", "Audífonos inalámbricos AIWA AWK17U", "Audio", 4.8, 2012, "+1,000 vendidos", "Tienda oficial AIWA", True, "Oferta destacada", "Audífonos Bluetooth 5.3 ligeros con micrófono y hasta diez horas de reproducción a un precio accesible."),
+    ("https://meli.la/2nAfn5A", "Mouse Logitech M196 Bluetooth", "Accesorios", 4.9, 6635, "+1,000 vendidos", "Mercado Libre", True, "Oferta destacada", "Mouse Bluetooth compacto y económico que libera el puerto USB y funciona con computadoras o tabletas compatibles."),
+    ("https://meli.la/1qyJsH3", "Mouse ergonómico Logitech MX Vertical", "Accesorios", 4.9, 1285, "+1,000 vendidos", "Tienda oficial Logitech", True, "Ergonomía destacada", "Mouse vertical recargable para diestros, pensado para una postura menos forzada durante jornadas prolongadas."),
 ]
 
 
@@ -347,16 +352,67 @@ REVIEW_SNAPSHOTS = {
             "No incluye GPS y la autonomía real depende de las funciones activadas.",
         ],
     },
+    "https://meli.la/1PGh198": {
+        "rating": 4.9, "reviews": 428, "checked_at": "2026-09-15T00:00:00-05:00",
+        "snippets": [
+            "La conexión se siente firme y los dos metros de longitud resultan cómodos para el uso diario.",
+            "Carga dispositivos compatibles con rapidez; la transferencia de datos está limitada a velocidad USB 2.0.",
+        ],
+    },
+    "https://meli.la/18Ymczo": {
+        "rating": 4.9, "reviews": 123, "checked_at": "2026-09-15T00:00:00-05:00",
+        "snippets": [
+            "La luz tiene buena potencia, materiales sólidos y muchas opciones de color desde la aplicación.",
+            "La publicación incluye un panel y maleta; el trípode y las baterías recargables se compran por separado.",
+        ],
+    },
+    "https://meli.la/2kSnh5A": {
+        "rating": 4.8, "reviews": 2012, "checked_at": "2026-09-15T00:00:00-05:00",
+        "snippets": [
+            "El sonido y los graves cumplen bien por el precio, y el diseño ligero resulta cómodo.",
+            "No tienen cancelación activa de ruido y las letras laterales se iluminan durante el uso.",
+        ],
+    },
+    "https://meli.la/2nAfn5A": {
+        "rating": 4.9, "reviews": 6635, "checked_at": "2026-09-15T00:00:00-05:00",
+        "snippets": [
+            "La conexión Bluetooth es rápida, estable y ahorra un puerto USB en la computadora.",
+            "Su tamaño compacto facilita transportarlo, aunque puede sentirse pequeño en manos grandes.",
+        ],
+    },
+    "https://meli.la/1qyJsH3": {
+        "rating": 4.9, "reviews": 1285, "checked_at": "2026-09-15T00:00:00-05:00",
+        "snippets": [
+            "La forma vertical mejora la comodidad de la muñeca durante jornadas largas de trabajo.",
+            "Está diseñado para diestros y requiere un periodo de adaptación frente a un mouse convencional.",
+        ],
+    },
 }
 
 
 def main() -> None:
     research = json.loads(RESEARCH.read_text(encoding="utf-8"))
     by_link = {product["affiliate_url"]: product for product in research["products"]}
+    existing = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"products": []}
+    existing_by_link = {product["affiliate_url"]: product for product in existing["products"]}
     products = []
     for entry in CURATION:
         link, title, category, rating, reviews, sold, seller, official, signal, reason = entry
-        source = by_link[link]
+        source = by_link.get(link)
+        if source is None:
+            cached = existing_by_link.get(link)
+            if cached is None:
+                raise KeyError(f"No hay investigación vigente ni ficha previa para {link}")
+            source = {
+                "item_id": cached["id"],
+                "catalog_product_id": cached["catalog_product_id"],
+                "permalink": cached["permalink"],
+                "price": cached["price"],
+                "previous_price": cached.get("previous_price"),
+                "currency": cached.get("currency", "MXN"),
+                "discount_label": f'{cached["discount"]}% OFF' if cached.get("discount") is not None else None,
+                "image": cached["image"],
+            }
         review_snapshot = REVIEW_SNAPSHOTS[link]
         discount_match = re.search(r"(\d+)%", source.get("discount_label") or "")
         catalog_product_id = source["catalog_product_id"] or re.search(
@@ -387,7 +443,7 @@ def main() -> None:
             "available": True,
             "review_snippets": review_snapshot["snippets"],
             "last_price_check": research["generated_at"],
-            "last_review_check": REVIEW_SNAPSHOT_DATE,
+            "last_review_check": review_snapshot.get("checked_at", REVIEW_SNAPSHOT_DATE),
         })
     output = {
         "schema_version": 2,

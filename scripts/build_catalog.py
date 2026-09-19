@@ -60,6 +60,11 @@ CURATION = [
     ("https://meli.la/2kSnh5A", "Audífonos inalámbricos AIWA AWK17U", "Audio", 4.8, 2012, "+1,000 vendidos", "Tienda oficial AIWA", True, "Oferta destacada", "Audífonos Bluetooth 5.3 ligeros con micrófono y hasta diez horas de reproducción a un precio accesible."),
     ("https://meli.la/2nAfn5A", "Mouse Logitech M196 Bluetooth", "Accesorios", 4.9, 6635, "+1,000 vendidos", "Mercado Libre", True, "Oferta destacada", "Mouse Bluetooth compacto y económico que libera el puerto USB y funciona con computadoras o tabletas compatibles."),
     ("https://meli.la/1qyJsH3", "Mouse ergonómico Logitech MX Vertical", "Accesorios", 4.9, 1285, "+1,000 vendidos", "Tienda oficial Logitech", True, "Ergonomía destacada", "Mouse vertical recargable para diestros, pensado para una postura menos forzada durante jornadas prolongadas."),
+    ("https://meli.la/2xWUnzh", "Teclado mecánico Redragon Kumara K552", "Gaming", 4.9, 30036, "+1,000 vendidos", "Tienda oficial Redragon", True, "Precio destacado", "Teclado mecánico compacto en español latinoamericano, con estructura firme, iluminación y amplio respaldo de compradores."),
+    ("https://meli.la/2QREFW9", "Memoria SanDisk Extreme Pro SDXC de 64 GB", "Almacenamiento", 4.9, 2482, "+10 mil vendidos", "SanDisk", True, "Alta velocidad", "Tarjeta SDXC UHS-I para fotografía y video 4K, con lectura de hasta 200 MB/s y una reputación sobresaliente."),
+    ("https://meli.la/1Gptf9P", "Xiaomi Robot Vacuum X20+", "Hogar inteligente", 4.8, 2777, "+1,000 vendidos", "Tienda oficial Xiaomi", True, "Oferta destacada", "Aspiradora y trapeadora con navegación láser, estación automática y 6,000 Pa para reducir el trabajo de limpieza diaria."),
+    ("https://meli.la/1oQ5HSb", "Proyector Wanbo X5 Pro Full HD", "Proyectores", 4.8, 334, "+1,000 vendidos", "Tienda oficial Wanbo", True, "Oferta destacada", "Proyector Full HD nativo de 1,100 lúmenes ANSI con Google TV, HDR10 y buenas referencias para cine en casa."),
+    ("https://meli.la/2Fzig3F", "Bocina Sony ULT Field 3", "Audio", 4.9, 394, "+100 vendidos", "Tienda oficial Sony", True, "Oferta destacada", "Bocina portátil con graves potentes, conectividad Bluetooth y batería de larga duración, respaldada por la tienda oficial."),
 ]
 
 
@@ -387,6 +392,41 @@ REVIEW_SNAPSHOTS = {
             "Está diseñado para diestros y requiere un periodo de adaptación frente a un mouse convencional.",
         ],
     },
+    "https://meli.la/2xWUnzh": {
+        "rating": 4.9, "reviews": 30036, "checked_at": "2026-09-19T00:00:00-05:00",
+        "snippets": [
+            "Se siente firme, compacto y cómodo tanto para jugar como para escribir.",
+            "Las teclas mecánicas pueden resultar ruidosas si se usa de noche o en un espacio compartido.",
+        ],
+    },
+    "https://meli.la/2QREFW9": {
+        "rating": 4.9, "reviews": 2482, "checked_at": "2026-09-19T00:00:00-05:00",
+        "snippets": [
+            "Compradores destacan su velocidad y estabilidad al grabar fotografía y video en alta resolución.",
+            "Conviene verificar la compatibilidad SDXC y la capacidad máxima admitida por el dispositivo.",
+        ],
+    },
+    "https://meli.la/1Gptf9P": {
+        "rating": 4.8, "reviews": 2777, "checked_at": "2026-09-19T00:00:00-05:00",
+        "snippets": [
+            "El mapeo por habitaciones y el control desde la aplicación ahorran tiempo en la limpieza cotidiana.",
+            "No sustituye una limpieza profunda porque puede dejar rincones o zonas bajo ciertos muebles.",
+        ],
+    },
+    "https://meli.la/1oQ5HSb": {
+        "rating": 4.8, "reviews": 334, "checked_at": "2026-09-19T00:00:00-05:00",
+        "snippets": [
+            "La imagen y el brillo tienen buena relación calidad-precio en espacios oscuros o con luz moderada.",
+            "El sistema integrado es práctico, aunque puede sentirse menos fluido que un reproductor externo.",
+        ],
+    },
+    "https://meli.la/2Fzig3F": {
+        "rating": 4.9, "reviews": 394, "checked_at": "2026-09-19T00:00:00-05:00",
+        "snippets": [
+            "El sonido es potente y envolvente, con graves notorios sin distorsión a volumen alto.",
+            "Su construcción es sólida y la batería dura bien, aunque no es la bocina más compacta de la categoría.",
+        ],
+    },
 }
 
 
@@ -412,6 +452,7 @@ def main() -> None:
                 "currency": cached.get("currency", "MXN"),
                 "discount_label": f'{cached["discount"]}% OFF' if cached.get("discount") is not None else None,
                 "image": cached["image"],
+                "_last_price_check": cached.get("last_price_check"),
             }
         review_snapshot = REVIEW_SNAPSHOTS[link]
         discount_match = re.search(r"(\d+)%", source.get("discount_label") or "")
@@ -442,7 +483,7 @@ def main() -> None:
             "affiliate_url": link,
             "available": True,
             "review_snippets": review_snapshot["snippets"],
-            "last_price_check": research["generated_at"],
+            "last_price_check": source.get("_last_price_check") or research["generated_at"],
             "last_review_check": review_snapshot.get("checked_at", REVIEW_SNAPSHOT_DATE),
         })
     output = {

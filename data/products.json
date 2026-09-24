@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-23T15:28:49.914Z",
+  "generated_at": "2026-09-24T15:51:04.761Z",
   "source_note": "Precios y disponibilidad se verifican diariamente. Calificaciones, ventas y extractos de opiniones son una referencia editorial observada en Mercado Libre México y pueden cambiar.",
   "products": [
     {
@@ -27,7 +27,7 @@
         "Amé el producto, lo recomiendo totalmente.",
         "Están preciosos, no lastiman porque uso lentes y tienen buen sonido."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -54,7 +54,7 @@
         "Me sorprendieron bastante; el sonido y los materiales son buenos.",
         "Valió cada centavo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -81,7 +81,7 @@
         "La pantalla es de calidad y con una imagen perfecta.",
         "La batería dura ocho días."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -108,16 +108,16 @@
         "La calidad de sonido ya era buenísima.",
         "Decidí volver a confiar en la marca."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM5336510198",
+      "id": "MLM5843426776",
       "catalog_product_id": "MLM21854641",
       "permalink": "https://www.mercadolibre.com.mx/tp-link-tapo-tc70-camara-de-seguridad-wifi-interior-resolucion-fhd-cobertura-360-vision-nocturna-infrarroja-deteccion-de-movimiento-audio-bidireccional-y-alarma-512gb-app-tapo/p/MLM21854641",
       "title": "Cámara TP-Link Tapo TC70 360°",
       "category": "Hogar inteligente",
-      "price": 496,
+      "price": 499,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -135,7 +135,7 @@
         "Su instalación es fácil y es rápida de conectar.",
         "La calidad de imagen es excelente."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -162,7 +162,7 @@
         "Mejoró bastante comparado con la versión anterior.",
         "Solo necesito un control remoto en lugar de dos."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -171,7 +171,7 @@
       "permalink": "https://www.mercadolibre.com.mx/amazon-fire-tv-stick-4k-8gb-con-pilas-control-remoto-adaptador-cable-y-hdmi-negro/p/MLM42248736",
       "title": "Amazon Fire TV Stick 4K",
       "category": "Streaming",
-      "price": 738.11,
+      "price": 738.1,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -189,16 +189,16 @@
         "Es compatible con la app Xbox para jugar vía nube.",
         "Este control es más cómodo y práctico."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM3424645035",
+      "id": "MLM6284835746",
       "catalog_product_id": "MLM16211423",
       "permalink": "https://www.mercadolibre.com.mx/mouse-gaming-logitech-g203/p/MLM16211423",
       "title": "Mouse gaming Logitech G203",
       "category": "Gaming",
-      "price": 437,
+      "price": 421,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -216,19 +216,19 @@
         "El producto es original y la app sí lo reconoce.",
         "Ahora me matan igual, pero con estilo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM6046843096",
+      "id": "MLM2869646997",
       "catalog_product_id": "MLM6204828",
       "permalink": "https://www.mercadolibre.com.mx/mouse-inalambrico-logitech-m170/p/MLM6204828",
       "title": "Mouse inalámbrico Logitech M170",
       "category": "Accesorios",
       "price": 199,
-      "previous_price": null,
+      "previous_price": 499,
       "currency": "MXN",
-      "discount": null,
+      "discount": 60,
       "rating": 4.9,
       "reviews": 43596,
       "sold": "+10 mil vendidos",
@@ -243,7 +243,7 @@
         "Es muy cómodo y ergonómico; no cansa la muñeca.",
         "La pila que trae dura muchísimo tiempo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -270,7 +270,7 @@
         "Pantalla nítida, colores correctos y brillantes.",
         "No puedes contestar llamadas; no tiene bocina ni altavoz."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -297,16 +297,16 @@
         "Para uso básico es perfecta.",
         "Es la versión que no tiene para tarjeta SIM."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM3505821055",
+      "id": "MLM3544702325",
       "catalog_product_id": "MLM26810824",
       "permalink": "https://www.mercadolibre.com.mx/interno-kingston-sa400s37960g-sata-960gb-negro/p/MLM26810824",
       "title": "SSD Kingston A400 SATA de 960 GB",
       "category": "Almacenamiento",
-      "price": 1368,
+      "price": 1661,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -324,19 +324,19 @@
         "Tiene un arranque con Windows 10 excelente.",
         "Es un cambio tremendo a comparación del HDD."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM3171325002",
+      "id": "MLM3087835290",
       "catalog_product_id": "MLM8753142",
       "permalink": "https://www.mercadolibre.com.mx/nintendo-switch-super-mario-odyssey/p/MLM8753142",
       "title": "Super Mario Odyssey para Nintendo Switch",
       "category": "Gaming",
-      "price": 839,
+      "price": 863.2,
       "previous_price": 1172,
       "currency": "MXN",
-      "discount": 28,
+      "discount": 26,
       "rating": 4.9,
       "reviews": 9860,
       "sold": "+50 mil vendidos",
@@ -351,7 +351,7 @@
         "Un juego lleno de detalles, muy bien hecho; vale mucho la pena.",
         "El juego vino en perfecto estado."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -380,19 +380,19 @@
       ],
       "last_price_check": "2026-09-15T17:03:48.876Z",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-09-23T15:28:49.914Z",
+      "last_price_error": "2026-09-24T15:51:04.761Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
-      "id": "MLM5369653068",
+      "id": "MLM6285667188",
       "catalog_product_id": "MLM67144918",
       "permalink": "https://www.mercadolibre.com.mx/laptop-hp-255r-g10-amd-ryzen-5-7535u-8gb-ddr5-ssd-512gb-pantalla-156-fhd-windows-11-teclado-espanol/p/MLM67144918",
       "title": "Laptop HP 255R G10 Ryzen 5",
       "category": "Cómputo",
-      "price": 9599,
-      "previous_price": 14999,
+      "price": 10687,
+      "previous_price": 11250,
       "currency": "MXN",
-      "discount": 36,
+      "discount": 5,
       "rating": 4.8,
       "reviews": 93,
       "sold": "+1,000 vendidos",
@@ -407,10 +407,8 @@
         "Enciende rápido. Muy útil para las tareas básicas.",
         "Buen equipo, solo se descarga muy rápido."
       ],
-      "last_price_check": "2026-09-15T16:52:33.674174+00:00",
-      "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-09-23T15:28:49.914Z",
-      "last_price_error_message": "No se encontró la ficha destacada del producto"
+      "last_price_check": "2026-09-24T15:51:04.761Z",
+      "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
       "id": "MLM5368722072",
@@ -436,19 +434,19 @@
         "Venía tal cual con mochila y mouse.",
         "Es una buena laptop y, aunque no es para juegos, los corre bastante bien."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM5825916820",
+      "id": "MLM2326434085",
       "catalog_product_id": "MLM49006175",
       "permalink": "https://www.mercadolibre.com.mx/jbl-charge-6-bocina-portatil-bluetooth-resistente-al-agua/p/MLM49006175",
       "title": "Bocina portátil JBL Charge 6",
       "category": "Audio",
       "price": 2299,
-      "previous_price": 3999,
+      "previous_price": 3412,
       "currency": "MXN",
-      "discount": 42,
+      "discount": 32,
       "rating": 4.9,
       "reviews": 22094,
       "sold": "+10 mil vendidos",
@@ -463,7 +461,7 @@
         "El sonido es excelente, potente y se conecta con rapidez.",
         "Funciona muy bien al aire libre y la batería tiene buena duración."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -490,7 +488,7 @@
         "Las teclas se sienten suaves y la calidad de construcción es buena.",
         "El formato compacto conserva el teclado numérico y resulta cómodo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -517,7 +515,7 @@
         "La red de 5 GHz mantiene buena velocidad y estabilidad.",
         "Es fácil de configurar y permite separar las dos bandas."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -544,7 +542,7 @@
         "La configuración es sencilla y la aplicación resulta práctica.",
         "Mejoró la cobertura, aunque la distancia entre nodos sí importa."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -571,7 +569,7 @@
         "Permite varias cargas del teléfono y es útil para viajar.",
         "Puede cargar varios dispositivos, pero compartir puertos reduce la carga rápida."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -598,7 +596,7 @@
         "La imagen es clara de día y de noche, con buena conexión Wi-Fi.",
         "La detección de movimiento y el audio ayudan a vigilar exteriores."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -625,7 +623,7 @@
         "La imagen se ve clara y la instalación resulta sencilla para videollamadas y clases.",
         "El micrófono cumple, aunque para grabaciones exigentes conviene usar uno dedicado."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -652,7 +650,7 @@
         "El sonido tiene buenos graves y los audífonos son cómodos durante varias horas.",
         "La batería dura bien y el emparejamiento con el teléfono es rápido."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -679,7 +677,7 @@
         "Permite conectar pantalla y varios accesorios al mismo tiempo sin complicaciones.",
         "La construcción se siente sólida y cumple con los puertos anunciados."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -688,7 +686,7 @@
       "permalink": "https://www.mercadolibre.com.mx/foco-led-con-wi-fi-tp-link-tapo-l530e-4-pack-bulbo-color-rgb-87w-6500k-806lm-por-4-unidades/p/MLM44116440",
       "title": "Focos inteligentes TP-Link Tapo L530E, paquete de 4",
       "category": "Hogar inteligente",
-      "price": 799,
+      "price": 811,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -706,7 +704,7 @@
         "Son fáciles de configurar, agrupar y controlar con el asistente de voz.",
         "El brillo es bueno; después de un apagón puede ser necesario volver a enlazarlos."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -715,7 +713,7 @@
       "permalink": "https://www.mercadolibre.com.mx/adaptador-inalambrico-usb-tp-link-archer-t3u-plus-dual-band-ac1300/p/MLM47344125",
       "title": "Adaptador Wi-Fi USB TP-Link Archer T3U Plus",
       "category": "Conectividad",
-      "price": 474.58,
+      "price": 479.73,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -733,7 +731,7 @@
         "Mejoró la señal incluso a varios metros del módem y atravesando paredes.",
         "Windows lo reconoció rápidamente y la conexión se mantuvo estable."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -762,19 +760,19 @@
       ],
       "last_price_check": "2026-09-15T16:52:33.674174+00:00",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-09-23T15:28:49.914Z",
+      "last_price_error": "2026-09-24T15:51:04.761Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
-      "id": "MLM3924442144",
+      "id": "MLM4029364042",
       "catalog_product_id": "MLM25397119",
       "permalink": "https://www.mercadolibre.com.mx/tp-link-tapo-p1001-pack-enchufe-inteligente-wifi-control-total-desde-la-app-comandos-de-voz-temporizador-diseno-compacto-facil-instalacion-no-requiere-hub/p/MLM25397119",
       "title": "Enchufe inteligente TP-Link Tapo P100",
       "category": "Hogar inteligente",
-      "price": 299,
-      "previous_price": null,
+      "price": 199,
+      "previous_price": 229,
       "currency": "MXN",
-      "discount": null,
+      "discount": 13,
       "rating": 4.8,
       "reviews": 135,
       "sold": "+1,000 vendidos",
@@ -789,19 +787,19 @@
         "La aplicación es sencilla y permite programar horarios de encendido y apagado.",
         "Se integra con Alexa sin dificultad y resulta útil para automatizaciones básicas."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM2373768319",
+      "id": "MLM5194123978",
       "catalog_product_id": "MLM23037572",
       "permalink": "https://www.mercadolibre.com.mx/tp-link-tapo-c500-camara-de-seguridad-wifi-exterior-resolucion-fhd-cobertura-360-vision-nocturna-a-color-deteccion-de-movimiento-512gb-alarma-de-luz-y-sonido-app-tapo-proteccion-ip65/p/MLM23037572",
       "title": "Cámara exterior TP-Link Tapo C500",
       "category": "Hogar inteligente",
-      "price": 719,
-      "previous_price": 799,
+      "price": 699,
+      "previous_price": null,
       "currency": "MXN",
-      "discount": 10,
+      "discount": null,
       "rating": 4.8,
       "reviews": 25470,
       "sold": "+50 mil vendidos",
@@ -816,7 +814,7 @@
         "La imagen es clara de día y de noche, y la aplicación organiza bien las grabaciones.",
         "La detección es sensible y puede generar demasiadas notificaciones si no se ajusta."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -843,7 +841,7 @@
         "Los colores se ven vivos y el tamaño facilita trabajar con varias ventanas.",
         "Cumple con los 100 Hz; conviene ajustar el brillo inicial al gusto."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -872,7 +870,7 @@
       ],
       "last_price_check": "2026-09-15T17:03:48.876Z",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-09-23T15:28:49.914Z",
+      "last_price_error": "2026-09-24T15:51:04.761Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -899,7 +897,7 @@
         "El audio se percibe claro y la cancelación de ruido ayuda a aislar la voz.",
         "Es fácil de configurar; la ganancia y el monitoreo permiten ajustar la grabación."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -926,7 +924,7 @@
         "La carcasa metálica se siente sólida y mantiene estable la conexión gigabit.",
         "La instalación es directa: basta conectar los cables para comenzar a usarlo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -935,10 +933,10 @@
       "permalink": "https://www.mercadolibre.com.mx/cargador-samsung-25w-gan-super-fast-charging-tipo-c-color-negro/p/MLM69623046",
       "title": "Cargador Samsung GaN de 25 W USB-C",
       "category": "Accesorios",
-      "price": 227.24,
+      "price": 215.28,
       "previous_price": 299,
       "currency": "MXN",
-      "discount": 24,
+      "discount": 28,
       "rating": 4.9,
       "reviews": 1873,
       "sold": "+10 mil vendidos",
@@ -953,7 +951,7 @@
         "La carga rápida funciona bien con equipos Samsung compatibles y sin calentamiento excesivo.",
         "No incluye cable USB-C; hay que considerar ese accesorio por separado."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -980,7 +978,7 @@
         "Son ligeros y cómodos para sesiones de juego, con buen aislamiento.",
         "El audio cumple por el precio; algunos compradores prefieren graves más fuertes."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1007,7 +1005,7 @@
         "La imagen es clara para videollamadas y la instalación resulta sencilla.",
         "La tapa de privacidad es práctica; el video está limitado a 30 cuadros por segundo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1034,7 +1032,7 @@
         "El sonido conserva buena claridad incluso a volumen alto y la batería dura bastante.",
         "Es ligera y resistente al agua; sus 5 W están pensados para espacios pequeños."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1061,19 +1059,19 @@
         "Se siente compacto y sólido, y permite cargar teléfonos y computadoras compatibles.",
         "Al utilizar varios puertos se divide la potencia y algunos compradores reportan calentamiento."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM2070090265",
+      "id": "MLM3130495418",
       "catalog_product_id": "MLM23995388",
       "permalink": "https://www.mercadolibre.com.mx/amazon-echo-pop-c2h4r9-con-asistente-virtual-alexa-control-de-voz-charcoal/p/MLM23995388",
       "title": "Amazon Echo Pop con Alexa",
       "category": "Hogar inteligente",
-      "price": 863,
-      "previous_price": 1094,
+      "price": 873,
+      "previous_price": 919,
       "currency": "MXN",
-      "discount": 21,
+      "discount": 5,
       "rating": 4.9,
       "reviews": 108879,
       "sold": "+100 mil vendidos",
@@ -1088,7 +1086,7 @@
         "La configuración es sencilla y los micrófonos responden bien en una habitación.",
         "Necesita permanecer conectado a corriente y su sonido es menos potente que un Echo Dot."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1115,19 +1113,19 @@
         "La correa resulta cómoda y la batería tiene buena duración para el uso diario.",
         "No incluye GPS y la autonomía real depende de las funciones activadas."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM3146858782",
+      "id": "MLM2597507159",
       "catalog_product_id": "MLM28098308",
       "permalink": "https://www.mercadolibre.com.mx/cable-ugreen-usb-c-a-usb-c-240w-5a-480mbps-carga-rapida-2mts-negro/p/MLM28098308",
       "title": "Cable Ugreen USB-C de 240 W y 2 metros",
       "category": "Accesorios",
-      "price": 307,
-      "previous_price": null,
+      "price": 304.99,
+      "previous_price": 427.14,
       "currency": "MXN",
-      "discount": null,
+      "discount": 28,
       "rating": 4.9,
       "reviews": 428,
       "sold": "+1,000 vendidos",
@@ -1142,7 +1140,7 @@
         "La conexión se siente firme y los dos metros de longitud resultan cómodos para el uso diario.",
         "Carga dispositivos compatibles con rapidez; la transferencia de datos está limitada a velocidad USB 2.0."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1171,7 +1169,7 @@
       ],
       "last_price_check": "2026-09-15T17:03:48.876Z",
       "last_review_check": "2026-09-15T00:00:00-05:00",
-      "last_price_error": "2026-09-23T15:28:49.914Z",
+      "last_price_error": "2026-09-24T15:51:04.761Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -1198,19 +1196,19 @@
         "El sonido y los graves cumplen bien por el precio, y el diseño ligero resulta cómodo.",
         "No tienen cancelación activa de ruido y las letras laterales se iluminan durante el uso."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
-      "id": "MLM3842595312",
+      "id": "MLM2225723411",
       "catalog_product_id": "MLM45508836",
       "permalink": "https://www.mercadolibre.com.mx/mouse-inalambrico-logitech-m196-bluetooth-negro-color-grafito/p/MLM45508836",
       "title": "Mouse Logitech M196 Bluetooth",
       "category": "Accesorios",
-      "price": 249,
-      "previous_price": 329,
+      "price": 179,
+      "previous_price": 229,
       "currency": "MXN",
-      "discount": 24,
+      "discount": 21,
       "rating": 4.9,
       "reviews": 6635,
       "sold": "+1,000 vendidos",
@@ -1225,19 +1223,19 @@
         "La conexión Bluetooth es rápida, estable y ahorra un puerto USB en la computadora.",
         "Su tamaño compacto facilita transportarlo, aunque puede sentirse pequeño en manos grandes."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
-      "id": "MLM6011737010",
+      "id": "MLM1410383422",
       "catalog_product_id": "MLM12866866",
       "permalink": "https://www.mercadolibre.com.mx/logitech-mouse-inalambrico-ergonomico-mx-vertical-negro/p/MLM12866866",
       "title": "Mouse ergonómico Logitech MX Vertical",
       "category": "Accesorios",
-      "price": 1585,
-      "previous_price": null,
+      "price": 1799,
+      "previous_price": 2600,
       "currency": "MXN",
-      "discount": null,
+      "discount": 30,
       "rating": 4.9,
       "reviews": 1285,
       "sold": "+1,000 vendidos",
@@ -1252,7 +1250,7 @@
         "La forma vertical mejora la comodidad de la muñeca durante jornadas largas de trabajo.",
         "Está diseñado para diestros y requiere un periodo de adaptación frente a un mouse convencional."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1279,16 +1277,16 @@
         "Se siente firme, compacto y cómodo tanto para jugar como para escribir.",
         "Las teclas mecánicas pueden resultar ruidosas si se usa de noche o en un espacio compartido."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
-      "id": "MLM2142090385",
+      "id": "MLM2276295913",
       "catalog_product_id": "MLM19847987",
       "permalink": "https://www.mercadolibre.com.mx/sandisk-memoria-sd-extreme-pro-sdxc-uhs-i-de-64-gb/p/MLM19847987",
       "title": "Memoria SanDisk Extreme Pro SDXC de 64 GB",
       "category": "Almacenamiento",
-      "price": 919,
+      "price": 512.74,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -1306,7 +1304,7 @@
         "Compradores destacan su velocidad y estabilidad al grabar fotografía y video en alta resolución.",
         "Conviene verificar la compatibilidad SDXC y la capacidad máxima admitida por el dispositivo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1333,7 +1331,7 @@
         "El mapeo por habitaciones y el control desde la aplicación ahorran tiempo en la limpieza cotidiana.",
         "No sustituye una limpieza profunda porque puede dejar rincones o zonas bajo ciertos muebles."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1360,7 +1358,7 @@
         "La imagen y el brillo tienen buena relación calidad-precio en espacios oscuros o con luz moderada.",
         "El sistema integrado es práctico, aunque puede sentirse menos fluido que un reproductor externo."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1387,12 +1385,12 @@
         "El sonido es potente y envolvente, con graves notorios sin distorsión a volumen alto.",
         "Su construcción es sólida y la batería dura bien, aunque no es la bocina más compacta de la categoría."
       ],
-      "last_price_check": "2026-09-23T15:28:49.914Z",
+      "last_price_check": "2026-09-24T15:51:04.761Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     }
   ],
   "sync": {
-    "price_success": 46,
+    "price_success": 47,
     "price_total": 51,
     "buyer_comments": "editorial_snapshot"
   }

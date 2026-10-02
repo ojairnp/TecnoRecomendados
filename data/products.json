@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-01T17:25:02.107Z",
+  "generated_at": "2026-10-02T16:42:48.171Z",
   "source_note": "Precios y disponibilidad se verifican diariamente. Calificaciones, ventas y extractos de opiniones son una referencia editorial observada en Mercado Libre México y pueden cambiar.",
   "products": [
     {
@@ -27,7 +27,7 @@
         "Amé el producto, lo recomiendo totalmente.",
         "Están preciosos, no lastiman porque uso lentes y tienen buen sonido."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -54,7 +54,7 @@
         "Me sorprendieron bastante; el sonido y los materiales son buenos.",
         "Valió cada centavo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -81,19 +81,19 @@
         "La pantalla es de calidad y con una imagen perfecta.",
         "La batería dura ocho días."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM3477582055",
+      "id": "MLM2262581267",
       "catalog_product_id": "MLM24519483",
       "permalink": "https://www.mercadolibre.com.mx/auriculares-inalambrico-over-ear-jbl-tune-720bt-bluetooth/p/MLM24519483",
       "title": "Audífonos JBL Tune 720BT",
       "category": "Audio",
-      "price": 729,
-      "previous_price": null,
+      "price": 855.55,
+      "previous_price": 1239,
       "currency": "MXN",
-      "discount": null,
+      "discount": 31,
       "rating": 4.9,
       "reviews": 29034,
       "sold": "+10 mil vendidos",
@@ -108,7 +108,7 @@
         "La calidad de sonido ya era buenísima.",
         "Decidí volver a confiar en la marca."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -135,7 +135,7 @@
         "Su instalación es fácil y es rápida de conectar.",
         "La calidad de imagen es excelente."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -162,7 +162,7 @@
         "Mejoró bastante comparado con la versión anterior.",
         "Solo necesito un control remoto en lugar de dos."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -189,7 +189,7 @@
         "Es compatible con la app Xbox para jugar vía nube.",
         "Este control es más cómodo y práctico."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -216,7 +216,7 @@
         "El producto es original y la app sí lo reconoce.",
         "Ahora me matan igual, pero con estilo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -225,7 +225,7 @@
       "permalink": "https://www.mercadolibre.com.mx/mouse-inalambrico-logitech-m170/p/MLM6204828",
       "title": "Mouse inalámbrico Logitech M170",
       "category": "Accesorios",
-      "price": 157.86,
+      "price": 157.82,
       "previous_price": 199,
       "currency": "MXN",
       "discount": 20,
@@ -243,7 +243,7 @@
         "Es muy cómodo y ergonómico; no cansa la muñeca.",
         "La pila que trae dura muchísimo tiempo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -252,7 +252,7 @@
       "permalink": "https://www.mercadolibre.com.mx/smartwatch-huawei-band-11-caja-de-polimeros-durables-gran-pantalla-de-162-monitoreo-de-sueno-bienestar-emocional-negro/p/MLM64371507",
       "title": "Huawei Band 11",
       "category": "Wearables",
-      "price": 719.12,
+      "price": 718.36,
       "previous_price": 999,
       "currency": "MXN",
       "discount": 28,
@@ -270,7 +270,7 @@
         "Pantalla nítida, colores correctos y brillantes.",
         "No puedes contestar llamadas; no tiene bocina ni altavoz."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -297,7 +297,7 @@
         "Para uso básico es perfecta.",
         "Es la versión que no tiene para tarjeta SIM."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -324,7 +324,7 @@
         "Tiene un arranque con Windows 10 excelente.",
         "Es un cambio tremendo a comparación del HDD."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -351,7 +351,7 @@
         "Un juego lleno de detalles, muy bien hecho; vale mucho la pena.",
         "El juego vino en perfecto estado."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -380,7 +380,7 @@
       ],
       "last_price_check": "2026-09-15T17:03:48.876Z",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-10-01T17:25:02.107Z",
+      "last_price_error": "2026-10-02T16:42:48.171Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -407,7 +407,7 @@
         "Enciende rápido. Muy útil para las tareas básicas.",
         "Buen equipo, solo se descarga muy rápido."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -434,7 +434,7 @@
         "Venía tal cual con mochila y mouse.",
         "Es una buena laptop y, aunque no es para juegos, los corre bastante bien."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -461,7 +461,7 @@
         "El sonido es excelente, potente y se conecta con rapidez.",
         "Funciona muy bien al aire libre y la batería tiene buena duración."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -488,7 +488,7 @@
         "Las teclas se sienten suaves y la calidad de construcción es buena.",
         "El formato compacto conserva el teclado numérico y resulta cómodo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -515,7 +515,7 @@
         "La red de 5 GHz mantiene buena velocidad y estabilidad.",
         "Es fácil de configurar y permite separar las dos bandas."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -542,7 +542,7 @@
         "La configuración es sencilla y la aplicación resulta práctica.",
         "Mejoró la cobertura, aunque la distancia entre nodos sí importa."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -571,7 +571,7 @@
       ],
       "last_price_check": "2026-09-26T15:01:39.467Z",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-10-01T17:25:02.107Z",
+      "last_price_error": "2026-10-02T16:42:48.171Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -598,7 +598,7 @@
         "La imagen es clara de día y de noche, con buena conexión Wi-Fi.",
         "La detección de movimiento y el audio ayudan a vigilar exteriores."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -625,19 +625,19 @@
         "La imagen se ve clara y la instalación resulta sencilla para videollamadas y clases.",
         "El micrófono cumple, aunque para grabaciones exigentes conviene usar uno dedicado."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM3140132705",
+      "id": "MLM5721890238",
       "catalog_product_id": "MLM39962085",
       "permalink": "https://www.mercadolibre.com.mx/auriculares-inalambricos-xiaomi-redmi-buds-6-play-negro/p/MLM39962085",
       "title": "Xiaomi Redmi Buds 6 Play",
       "category": "Audio",
-      "price": 205,
-      "previous_price": 229,
+      "price": 207,
+      "previous_price": 412,
       "currency": "MXN",
-      "discount": 10,
+      "discount": 49,
       "rating": 4.8,
       "reviews": 212422,
       "sold": "+5 mil vendidos",
@@ -652,19 +652,19 @@
         "El sonido tiene buenos graves y los audífonos son cómodos durante varias horas.",
         "La batería dura bien y el emparejamiento con el teléfono es rápido."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM2188788389",
+      "id": "MLM2272107865",
       "catalog_product_id": "MLM36771175",
       "permalink": "https://www.mercadolibre.com.mx/hub-usb-c-6-en-1-ugreen-3-usb-a-1-usb-c-hdmi-4k30hz-gris/p/MLM36771175",
       "title": "Hub USB-C Ugreen 6 en 1",
       "category": "Accesorios",
-      "price": 694,
-      "previous_price": null,
+      "price": 679,
+      "previous_price": 931,
       "currency": "MXN",
-      "discount": null,
+      "discount": 27,
       "rating": 4.9,
       "reviews": 157,
       "sold": "+1,000 vendidos",
@@ -679,7 +679,7 @@
         "Permite conectar pantalla y varios accesorios al mismo tiempo sin complicaciones.",
         "La construcción se siente sólida y cumple con los puertos anunciados."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -688,7 +688,7 @@
       "permalink": "https://www.mercadolibre.com.mx/foco-led-con-wi-fi-tp-link-tapo-l530e-4-pack-bulbo-color-rgb-87w-6500k-806lm-por-4-unidades/p/MLM44116440",
       "title": "Focos inteligentes TP-Link Tapo L530E, paquete de 4",
       "category": "Hogar inteligente",
-      "price": 839,
+      "price": 842,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -706,7 +706,7 @@
         "Son fáciles de configurar, agrupar y controlar con el asistente de voz.",
         "El brillo es bueno; después de un apagón puede ser necesario volver a enlazarlos."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -715,7 +715,7 @@
       "permalink": "https://www.mercadolibre.com.mx/adaptador-inalambrico-usb-tp-link-archer-t3u-plus-dual-band-ac1300/p/MLM47344125",
       "title": "Adaptador Wi-Fi USB TP-Link Archer T3U Plus",
       "category": "Conectividad",
-      "price": 498.7,
+      "price": 519.38,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -733,7 +733,7 @@
         "Mejoró la señal incluso a varios metros del módem y atravesando paredes.",
         "Windows lo reconoció rápidamente y la conexión se mantuvo estable."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -762,16 +762,16 @@
       ],
       "last_price_check": "2026-09-15T16:52:33.674174+00:00",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-10-01T17:25:02.107Z",
+      "last_price_error": "2026-10-02T16:42:48.171Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
-      "id": "MLM1967932807",
+      "id": "MLM2114700039",
       "catalog_product_id": "MLM25397119",
       "permalink": "https://www.mercadolibre.com.mx/tp-link-tapo-p1001-pack-enchufe-inteligente-wifi-control-total-desde-la-app-comandos-de-voz-temporizador-diseno-compacto-facil-instalacion-no-requiere-hub/p/MLM25397119",
       "title": "Enchufe inteligente TP-Link Tapo P100",
       "category": "Hogar inteligente",
-      "price": 389,
+      "price": 329.01,
       "previous_price": null,
       "currency": "MXN",
       "discount": null,
@@ -789,7 +789,7 @@
         "La aplicación es sencilla y permite programar horarios de encendido y apagado.",
         "Se integra con Alexa sin dificultad y resulta útil para automatizaciones básicas."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -816,7 +816,7 @@
         "La imagen es clara de día y de noche, y la aplicación organiza bien las grabaciones.",
         "La detección es sensible y puede generar demasiadas notificaciones si no se ajusta."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -843,7 +843,7 @@
         "Los colores se ven vivos y el tamaño facilita trabajar con varias ventanas.",
         "Cumple con los 100 Hz; conviene ajustar el brillo inicial al gusto."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -870,7 +870,7 @@
         "Se conecta con facilidad a varios dispositivos y sus teclas resultan silenciosas.",
         "El formato compacto facilita transportarlo; conviene revisar la distribución elegida."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -897,7 +897,7 @@
         "El audio se percibe claro y la cancelación de ruido ayuda a aislar la voz.",
         "Es fácil de configurar; la ganancia y el monitoreo permiten ajustar la grabación."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -924,7 +924,7 @@
         "La carcasa metálica se siente sólida y mantiene estable la conexión gigabit.",
         "La instalación es directa: basta conectar los cables para comenzar a usarlo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -951,19 +951,19 @@
         "La carga rápida funciona bien con equipos Samsung compatibles y sin calentamiento excesivo.",
         "No incluye cable USB-C; hay que considerar ese accesorio por separado."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM5245756328",
+      "id": "MLM3536441927",
       "catalog_product_id": "MLM22448503",
       "permalink": "https://www.mercadolibre.com.mx/audifonos-hyperx-cloud-stinger-2-core-alambricos-gaming-negro/p/MLM22448503",
       "title": "Audífonos HyperX Cloud Stinger 2 Core",
       "category": "Gaming",
-      "price": 995.17,
-      "previous_price": 1199,
+      "price": 989.34,
+      "previous_price": 1499,
       "currency": "MXN",
-      "discount": 17,
+      "discount": 34,
       "rating": 4.8,
       "reviews": 2668,
       "sold": "+1,000 vendidos",
@@ -978,7 +978,7 @@
         "Son ligeros y cómodos para sesiones de juego, con buen aislamiento.",
         "El audio cumple por el precio; algunos compradores prefieren graves más fuertes."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1005,7 +1005,7 @@
         "La imagen es clara para videollamadas y la instalación resulta sencilla.",
         "La tapa de privacidad es práctica; el video está limitado a 30 cuadros por segundo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1032,7 +1032,7 @@
         "El sonido conserva buena claridad incluso a volumen alto y la batería dura bastante.",
         "Es ligera y resistente al agua; sus 5 W están pensados para espacios pequeños."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1041,10 +1041,10 @@
       "permalink": "https://www.mercadolibre.com.mx/mini-cargador-ugreen-10334-gris-65-w-carga-rapida-usb-a-2-usb-c-de-pared/p/MLM27150375",
       "title": "Cargador Ugreen Nexode GaN de 65 W",
       "category": "Accesorios",
-      "price": 560,
+      "price": 599,
       "previous_price": 749,
       "currency": "MXN",
-      "discount": 25,
+      "discount": 20,
       "rating": 4.9,
       "reviews": 3145,
       "sold": "+10 mil vendidos",
@@ -1059,7 +1059,7 @@
         "Se siente compacto y sólido, y permite cargar teléfonos y computadoras compatibles.",
         "Al utilizar varios puertos se divide la potencia y algunos compradores reportan calentamiento."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1086,7 +1086,7 @@
         "La configuración es sencilla y los micrófonos responden bien en una habitación.",
         "Necesita permanecer conectado a corriente y su sonido es menos potente que un Echo Dot."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1113,19 +1113,19 @@
         "La correa resulta cómoda y la batería tiene buena duración para el uso diario.",
         "No incluye GPS y la autonomía real depende de las funciones activadas."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
-      "id": "MLM4150575158",
+      "id": "MLM2597507159",
       "catalog_product_id": "MLM28098308",
       "permalink": "https://www.mercadolibre.com.mx/cable-ugreen-usb-c-a-usb-c-240w-5a-480mbps-carga-rapida-2mts-negro/p/MLM28098308",
       "title": "Cable Ugreen USB-C de 240 W y 2 metros",
       "category": "Accesorios",
-      "price": 279,
-      "previous_price": 499,
+      "price": 303.26,
+      "previous_price": 427.14,
       "currency": "MXN",
-      "discount": 44,
+      "discount": 29,
       "rating": 4.9,
       "reviews": 428,
       "sold": "+1,000 vendidos",
@@ -1140,7 +1140,7 @@
         "La conexión se siente firme y los dos metros de longitud resultan cómodos para el uso diario.",
         "Carga dispositivos compatibles con rapidez; la transferencia de datos está limitada a velocidad USB 2.0."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1149,8 +1149,8 @@
       "permalink": "https://www.mercadolibre.com.mx/luz-de-panel-led-neewer-660-pro-rgb-con-control-por-app-y-u-soporte/p/MLM39607236",
       "title": "Panel LED Neewer 660 Pro RGB",
       "category": "Creación de contenido",
-      "price": 2184,
-      "previous_price": 3034,
+      "price": 2207,
+      "previous_price": 3065,
       "currency": "MXN",
       "discount": 28,
       "rating": 4.9,
@@ -1167,7 +1167,7 @@
         "La luz tiene buena potencia, materiales sólidos y muchas opciones de color desde la aplicación.",
         "La publicación incluye un panel y maleta; el trípode y las baterías recargables se compran por separado."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1194,7 +1194,7 @@
         "El sonido y los graves cumplen bien por el precio, y el diseño ligero resulta cómodo.",
         "No tienen cancelación activa de ruido y las letras laterales se iluminan durante el uso."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1221,19 +1221,19 @@
         "La conexión Bluetooth es rápida, estable y ahorra un puerto USB en la computadora.",
         "Su tamaño compacto facilita transportarlo, aunque puede sentirse pequeño en manos grandes."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
-      "id": "MLM3610152844",
+      "id": "MLM1410383422",
       "catalog_product_id": "MLM12866866",
       "permalink": "https://www.mercadolibre.com.mx/logitech-mouse-inalambrico-ergonomico-mx-vertical-negro/p/MLM12866866",
       "title": "Mouse ergonómico Logitech MX Vertical",
       "category": "Accesorios",
-      "price": 1400,
-      "previous_price": 2154,
+      "price": 1799,
+      "previous_price": 2600,
       "currency": "MXN",
-      "discount": 35,
+      "discount": 30,
       "rating": 4.9,
       "reviews": 1285,
       "sold": "+1,000 vendidos",
@@ -1248,7 +1248,7 @@
         "La forma vertical mejora la comodidad de la muñeca durante jornadas largas de trabajo.",
         "Está diseñado para diestros y requiere un periodo de adaptación frente a un mouse convencional."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1275,7 +1275,7 @@
         "Se siente firme, compacto y cómodo tanto para jugar como para escribir.",
         "Las teclas mecánicas pueden resultar ruidosas si se usa de noche o en un espacio compartido."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1302,7 +1302,7 @@
         "Compradores destacan su velocidad y estabilidad al grabar fotografía y video en alta resolución.",
         "Conviene verificar la compatibilidad SDXC y la capacidad máxima admitida por el dispositivo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1329,7 +1329,7 @@
         "El mapeo por habitaciones y el control desde la aplicación ahorran tiempo en la limpieza cotidiana.",
         "No sustituye una limpieza profunda porque puede dejar rincones o zonas bajo ciertos muebles."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1338,10 +1338,10 @@
       "permalink": "https://www.mercadolibre.com.mx/wanbo-proyector-x5-pro-new-1080p-nativa-1100-ansi-lumens-smarter-google-tv-os-hdr10-support/p/MLM54069228",
       "title": "Proyector Wanbo X5 Pro Full HD",
       "category": "Proyectores",
-      "price": 5898,
+      "price": 5120,
       "previous_price": 7865,
       "currency": "MXN",
-      "discount": 25,
+      "discount": 34,
       "rating": 4.8,
       "reviews": 334,
       "sold": "+1,000 vendidos",
@@ -1356,7 +1356,7 @@
         "La imagen y el brillo tienen buena relación calidad-precio en espacios oscuros o con luz moderada.",
         "El sistema integrado es práctico, aunque puede sentirse menos fluido que un reproductor externo."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1365,10 +1365,10 @@
       "permalink": "https://www.mercadolibre.com.mx/bocina-sony-portatil-inalambrico-ult-field-3-srs-ult30-color-negro/p/MLM53610640",
       "title": "Bocina Sony ULT Field 3",
       "category": "Audio",
-      "price": 3499,
-      "previous_price": 5499,
+      "price": 2899,
+      "previous_price": null,
       "currency": "MXN",
-      "discount": 36,
+      "discount": null,
       "rating": 4.9,
       "reviews": 394,
       "sold": "+100 vendidos",
@@ -1383,7 +1383,7 @@
         "El sonido es potente y envolvente, con graves notorios sin distorsión a volumen alto.",
         "Su construcción es sólida y la batería dura bien, aunque no es la bocina más compacta de la categoría."
       ],
-      "last_price_check": "2026-10-01T17:25:02.107Z",
+      "last_price_check": "2026-10-02T16:42:48.171Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     }
   ],

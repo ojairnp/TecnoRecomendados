@@ -7,6 +7,9 @@ on:
       - main
     paths:
       - ".github/workflows/update-catalog.yml"
+      - "config/candidate-links.json"
+      - "data/products.json"
+      - "scripts/build_catalog.py"
       - "scripts/update_catalog.mjs"
       - "tests/**"
       - "package.json"

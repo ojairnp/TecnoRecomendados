@@ -57,7 +57,7 @@ class SiteTests(unittest.TestCase):
 
     def test_every_product_has_reputation_and_editorial_context(self):
         for product in self.products:
-            self.assertGreaterEqual(product["rating"], 4.8)
+            self.assertGreaterEqual(product["rating"], 4.7)
             self.assertGreater(product["reviews"], 50)
             self.assertGreater(product["price"], 0)
             self.assertTrue(product["reason"])

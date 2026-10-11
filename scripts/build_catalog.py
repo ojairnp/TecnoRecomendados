@@ -65,6 +65,10 @@ CURATION = [
     ("https://meli.la/1Gptf9P", "Xiaomi Robot Vacuum X20+", "Hogar inteligente", 4.8, 2777, "+1,000 vendidos", "Tienda oficial Xiaomi", True, "Oferta destacada", "Aspiradora y trapeadora con navegación láser, estación automática y 6,000 Pa para reducir el trabajo de limpieza diaria."),
     ("https://meli.la/1oQ5HSb", "Proyector Wanbo X5 Pro Full HD", "Proyectores", 4.8, 334, "+1,000 vendidos", "Tienda oficial Wanbo", True, "Oferta destacada", "Proyector Full HD nativo de 1,100 lúmenes ANSI con Google TV, HDR10 y buenas referencias para cine en casa."),
     ("https://meli.la/2Fzig3F", "Bocina Sony ULT Field 3", "Audio", 4.9, 394, "+100 vendidos", "Tienda oficial Sony", True, "Oferta destacada", "Bocina portátil con graves potentes, conectividad Bluetooth y batería de larga duración, respaldada por la tienda oficial."),
+    ("https://meli.la/1nCcKCX", "Audífonos profesionales Sony MDR-7506", "Audio", 4.9, 1621, "+5 mil vendidos", "Tienda oficial Sony", True, "Oferta destacada", "Audífonos de monitoreo con sonido detallado, cable largo y amplio respaldo de compradores para producción, edición y escucha crítica."),
+    ("https://meli.la/2RsMc3Q", "Router Tenda RX2 Pro Wi-Fi 6 AX1500", "Conectividad", 4.7, 1236, "+1,000 vendidos", "Tienda oficial Tenda", True, "Oferta destacada", "Router Wi-Fi 6 de doble banda con puertos Gigabit, cinco antenas, WPA3, OFDMA y MU-MIMO para hogares con varios dispositivos."),
+    ("https://meli.la/13AyJLh", "Hub ORICO USB 3.0 de 4 puertos con clip", "Accesorios", 4.8, 114, "+1,000 vendidos", "Tienda oficial ORICO", True, "Oferta destacada", "Hub de aluminio que acerca cuatro puertos USB 3.0 al borde de un monitor o escritorio y ayuda a ordenar el espacio de trabajo."),
+    ("https://meli.la/1kkqWcx", "Paquete de 2 cámaras exteriores YUTUCAM de 3 MP", "Hogar inteligente", 4.8, 189, "+1,000 vendidos", "Tienda oficial YUTUCAM", True, "Oferta destacada", "Dos cámaras PTZ para exterior con visión nocturna, audio bidireccional, alertas de movimiento y almacenamiento microSD opcional."),
 ]
 
 
@@ -425,6 +429,34 @@ REVIEW_SNAPSHOTS = {
         "snippets": [
             "El sonido es potente y envolvente, con graves notorios sin distorsión a volumen alto.",
             "Su construcción es sólida y la batería dura bien, aunque no es la bocina más compacta de la categoría.",
+        ],
+    },
+    "https://meli.la/1nCcKCX": {
+        "rating": 4.9, "reviews": 1621, "checked_at": "2026-10-11T08:30:00-05:00",
+        "snippets": [
+            "El sonido detallado y balanceado funciona bien para monitoreo, edición y grabación.",
+            "El cable largo es útil en estudio, pero el formato alámbrico puede resultar estorboso fuera de casa.",
+        ],
+    },
+    "https://meli.la/2RsMc3Q": {
+        "rating": 4.7, "reviews": 1236, "checked_at": "2026-10-11T08:30:00-05:00",
+        "snippets": [
+            "Compradores destacan la estabilidad, el alcance y la facilidad de configuración para aprovechar conexiones rápidas.",
+            "El modo repetidor puede requerir configuración adicional y la banda de 5 GHz pierde alcance al atravesar paredes.",
+        ],
+    },
+    "https://meli.la/13AyJLh": {
+        "rating": 4.8, "reviews": 114, "checked_at": "2026-10-11T08:30:00-05:00",
+        "snippets": [
+            "El cuerpo de aluminio y el clip permiten dejar los puertos firmes y al alcance en escritorios compatibles.",
+            "La pinza no se ajusta bien a todas las superficies y el ancho de banda se comparte entre los cuatro puertos.",
+        ],
+    },
+    "https://meli.la/1kkqWcx": {
+        "rating": 4.8, "reviews": 189, "checked_at": "2026-10-11T08:30:00-05:00",
+        "snippets": [
+            "La instalación resulta sencilla y la imagen diurna y nocturna permite reconocer personas y objetos.",
+            "Solo admite Wi-Fi de 2.4 GHz, necesita alimentación eléctrica y conviene revisar los permisos de la aplicación.",
         ],
     },
 }

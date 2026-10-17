@@ -69,6 +69,10 @@ CURATION = [
     ("https://meli.la/2RsMc3Q", "Router Tenda RX2 Pro Wi-Fi 6 AX1500", "Conectividad", 4.7, 1236, "+1,000 vendidos", "Tienda oficial Tenda", True, "Oferta destacada", "Router Wi-Fi 6 de doble banda con puertos Gigabit, cinco antenas, WPA3, OFDMA y MU-MIMO para hogares con varios dispositivos."),
     ("https://meli.la/13AyJLh", "Hub ORICO USB 3.0 de 4 puertos con clip", "Accesorios", 4.8, 114, "+1,000 vendidos", "Tienda oficial ORICO", True, "Oferta destacada", "Hub de aluminio que acerca cuatro puertos USB 3.0 al borde de un monitor o escritorio y ayuda a ordenar el espacio de trabajo."),
     ("https://meli.la/1kkqWcx", "Paquete de 2 cámaras exteriores YUTUCAM de 3 MP", "Hogar inteligente", 4.8, 189, "+1,000 vendidos", "Tienda oficial YUTUCAM", True, "Oferta destacada", "Dos cámaras PTZ para exterior con visión nocturna, audio bidireccional, alertas de movimiento y almacenamiento microSD opcional."),
+    ("https://meli.la/1khYKtN", "Audífonos Soundcore Space One con cancelación de ruido", "Audio", 4.8, 4508, "+1,000 vendidos", "Tienda oficial Soundcore", True, "Oferta destacada", "Audífonos over-ear con cancelación activa, audio LDAC y hasta 40 horas de batería con ANC a un precio competitivo."),
+    ("https://meli.la/2EiJLM7", "Xiaomi TV Stick 4K de segunda generación", "Streaming", 4.9, 3698, "+1,000 vendidos", "iMPORTS77", False, "Oferta destacada", "Convierte una pantalla compatible en un centro de streaming 4K con Google TV, Wi-Fi 6, Dolby Vision y control por voz."),
+    ("https://meli.la/2zSpgRx", "Impresora Epson EcoTank L3250 con Wi-Fi", "Cómputo", 4.8, 3078, "+1,000 vendidos", "COMPUNEZA_468", False, "Costo por página", "Impresora, escáner y copiadora con tanque de tinta recargable y Wi-Fi Direct para hogar, estudio o una oficina pequeña."),
+    ("https://meli.la/1E2fxqR", "Monitor portátil ARZOPA A1 Full HD de 15.6 pulgadas", "Monitores", 4.8, 64, "+1,000 vendidos", "ARZOPA", False, "Oferta destacada", "Segunda pantalla IPS ligera para trabajo, programación, viajes y consolas compatibles mediante HDMI o USB-C."),
 ]
 
 
@@ -457,6 +461,34 @@ REVIEW_SNAPSHOTS = {
         "snippets": [
             "La instalación resulta sencilla y la imagen diurna y nocturna permite reconocer personas y objetos.",
             "Solo admite Wi-Fi de 2.4 GHz, necesita alimentación eléctrica y conviene revisar los permisos de la aplicación.",
+        ],
+    },
+    "https://meli.la/1khYKtN": {
+        "rating": 4.8, "reviews": 4508, "checked_at": "2026-10-17T09:02:15-05:00",
+        "snippets": [
+            "El sonido, la comodidad y la duración de la batería ofrecen una relación calidad-precio sobresaliente.",
+            "La cancelación funciona mejor con ruidos constantes; sonidos repentinos siguen siendo perceptibles y no tiene baja latencia para jugar.",
+        ],
+    },
+    "https://meli.la/2EiJLM7": {
+        "rating": 4.9, "reviews": 3698, "checked_at": "2026-10-17T09:02:15-05:00",
+        "snippets": [
+            "Las aplicaciones funcionan de forma rápida y la reproducción 4K ofrece una imagen nítida por su precio.",
+            "Solo dispone de 8 GB y conviene configurar el apagado para que el dispositivo no permanezca encendido con la televisión apagada.",
+        ],
+    },
+    "https://meli.la/2zSpgRx": {
+        "rating": 4.8, "reviews": 3078, "checked_at": "2026-10-17T09:02:15-05:00",
+        "snippets": [
+            "La tinta rinde mucho, la impresión es clara y la conexión por Wi-Fi resulta práctica para el uso diario.",
+            "La impresión a doble cara es manual y algunos compradores señalan que la configuración inicial puede requerir atención.",
+        ],
+    },
+    "https://meli.la/1E2fxqR": {
+        "rating": 4.8, "reviews": 64, "checked_at": "2026-10-17T09:02:15-05:00",
+        "snippets": [
+            "La pantalla es ligera, fácil de conectar y útil como segundo monitor para trabajo o viajes.",
+            "Los altavoces tienen volumen limitado y algunos equipos requieren alimentación adicional cuando se usa HDMI.",
         ],
     },
 }

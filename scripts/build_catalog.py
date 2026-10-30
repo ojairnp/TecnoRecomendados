@@ -73,6 +73,11 @@ CURATION = [
     ("https://meli.la/2EiJLM7", "Xiaomi TV Stick 4K de segunda generación", "Streaming", 4.9, 3698, "+1,000 vendidos", "iMPORTS77", False, "Oferta destacada", "Convierte una pantalla compatible en un centro de streaming 4K con Google TV, Wi-Fi 6, Dolby Vision y control por voz."),
     ("https://meli.la/2zSpgRx", "Impresora Epson EcoTank L3250 con Wi-Fi", "Cómputo", 4.8, 3078, "+1,000 vendidos", "COMPUNEZA_468", False, "Costo por página", "Impresora, escáner y copiadora con tanque de tinta recargable y Wi-Fi Direct para hogar, estudio o una oficina pequeña."),
     ("https://meli.la/1E2fxqR", "Monitor portátil ARZOPA A1 Full HD de 15.6 pulgadas", "Monitores", 4.8, 64, "+1,000 vendidos", "ARZOPA", False, "Oferta destacada", "Segunda pantalla IPS ligera para trabajo, programación, viajes y consolas compatibles mediante HDMI o USB-C."),
+    ("https://meli.la/11wa2qw", "Roku Streaming Stick 3840 con control de voz", "Streaming", 4.9, 73240, "+100 mil vendidos", "EMTECH, vendido por Mercado Libre", False, "Más vendido", "Reproductor Full HD compacto con control por voz, Wi-Fi de doble banda y una reputación sobresaliente para actualizar televisores compatibles."),
+    ("https://meli.la/2vCWcJL", "Bocina Soundcore Boom 2 de 80 W", "Audio", 4.9, 2163, "+1,000 vendidos", "Tienda oficial Soundcore", True, "Oferta destacada", "Bocina potente con BassUp 2.0, protección IPX7, batería prolongada y función de power bank para reuniones y exteriores."),
+    ("https://meli.la/2y85nNX", "Power bank Anker MagGo Qi2 de 10,000 mAh", "Accesorios", 4.8, 3005, "+1,000 vendidos", "Tienda oficial ANKER", True, "Oferta destacada", "Batería ultradelgada con carga magnética Qi2 de 15 W y USB-C de 30 W para mantener equipos compatibles cargados fuera de casa."),
+    ("https://meli.la/2trZ1yK", "Teclado mecánico Terport Z11 inalámbrico 60%", "Gaming", 4.8, 886, "+1,000 vendidos", "Tienda oficial Terport", True, "Oferta destacada", "Teclado compacto en español latinoamericano con switches rojos, Bluetooth, receptor 2.4 GHz, cable USB-C y retroiluminación RGB."),
+    ("https://meli.la/2RGVSq1", "DJI Mic Mini 2 con dos transmisores y estuche", "Creación de contenido", 4.9, 232, "+5 mil vendidos", "Tienda oficial DJI", True, "Oferta destacada", "Kit de micrófonos inalámbricos compacto con dos transmisores, receptor móvil y estuche de carga para video, entrevistas y contenido móvil."),
 ]
 
 
@@ -491,7 +496,69 @@ REVIEW_SNAPSHOTS = {
             "Los altavoces tienen volumen limitado y algunos equipos requieren alimentación adicional cuando se usa HDMI.",
         ],
     },
+    "https://meli.la/11wa2qw": {
+        "rating": 4.9, "reviews": 73240, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "Compradores destacan la instalación sencilla, la interfaz fluida y la comodidad del control por voz.",
+            "La resolución máxima es Full HD, no 4K, y el alcance del control puede variar según la ubicación del equipo.",
+        ],
+    },
+    "https://meli.la/2vCWcJL": {
+        "rating": 4.9, "reviews": 2163, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "El sonido potente, los bajos presentes y la conexión sencilla reciben buenos comentarios para uso dentro y fuera de casa.",
+            "La autonomía anunciada depende del volumen y de funciones como BassUp y las luces, por lo que puede reducirse con uso intensivo.",
+        ],
+    },
+    "https://meli.la/2y85nNX": {
+        "rating": 4.8, "reviews": 3005, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "El diseño delgado, los materiales y la carga por USB-C ofrecen una solución práctica para llevar energía adicional.",
+            "La carga inalámbrica es más lenta que por cable y la fijación magnética en Android puede requerir una funda o aro compatible.",
+        ],
+    },
+    "https://meli.la/2trZ1yK": {
+        "rating": 4.8, "reviews": 886, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "El formato compacto, los colores y la construcción reciben buenos comentarios por su relación calidad-precio.",
+            "El diseño de 60% elimina teclas dedicadas y algunos compradores consideran mejorables los switches incluidos para jugar en PC.",
+        ],
+    },
+    "https://meli.la/2RGVSq1": {
+        "rating": 4.9, "reviews": 232, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "El audio claro, el tamaño compacto y los protectores contra viento destacan para grabaciones y contenido móvil.",
+            "Conviene confirmar el conector del receptor antes de comprar; algunos usuarios reportan que el adaptador esperado para iPhone no venía incluido.",
+        ],
+    },
 }
+
+
+def resolve_catalog_product_id(source: dict, cached: dict | None = None) -> str:
+    """Return a stable Mercado Libre identity for catalog and non-catalog listings."""
+    candidates = [
+        source.get("catalog_product_id"),
+        (cached or {}).get("catalog_product_id"),
+    ]
+    permalink_match = re.search(r"/(MLMU?\d+)", source.get("permalink") or "")
+    if permalink_match:
+        candidates.append(permalink_match.group(1))
+    candidates.append(source.get("item_id"))
+    for candidate in candidates:
+        if isinstance(candidate, str) and candidate.startswith("MLM"):
+            return candidate
+    raise ValueError(f"No se pudo determinar un identificador oficial para {source.get('permalink')}")
+
+
+def canonical_product_permalink(source: dict, catalog_product_id: str, cached: dict | None = None) -> str:
+    """Prefer a public www permalink and reuse the last verified one when needed."""
+    source_permalink = source.get("permalink") or ""
+    if source_permalink.startswith("https://www.mercadolibre.com.mx/"):
+        return source_permalink
+    cached_permalink = (cached or {}).get("permalink") or ""
+    if cached_permalink.startswith("https://www.mercadolibre.com.mx/"):
+        return cached_permalink
+    return f"https://www.mercadolibre.com.mx/p/{catalog_product_id}"
 
 
 def main() -> None:
@@ -520,12 +587,9 @@ def main() -> None:
             }
         review_snapshot = REVIEW_SNAPSHOTS[link]
         discount_match = re.search(r"(\d+)%", source.get("discount_label") or "")
-        catalog_product_id = source["catalog_product_id"] or re.search(
-            r"/(MLMU?\d+)", source["permalink"]
-        ).group(1)
-        permalink = source["permalink"]
-        if not permalink.startswith("https://www.mercadolibre.com.mx/"):
-            permalink = f"https://www.mercadolibre.com.mx/p/{catalog_product_id}"
+        cached = existing_by_link.get(link)
+        catalog_product_id = resolve_catalog_product_id(source, cached)
+        permalink = canonical_product_permalink(source, catalog_product_id, cached)
         products.append({
             "id": source["item_id"],
             "catalog_product_id": catalog_product_id,

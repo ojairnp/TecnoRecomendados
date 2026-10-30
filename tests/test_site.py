@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from scripts.research_products import is_allowed_url
-from scripts.build_catalog import CURATION
+from scripts.build_catalog import CURATION, canonical_product_permalink, resolve_catalog_product_id
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -90,6 +90,34 @@ class SiteTests(unittest.TestCase):
         self.assertIn("python3 -m unittest", workflow)
         self.assertIn("contents: write", workflow)
         self.assertNotIn("playwright", workflow.lower())
+
+    def test_catalog_builder_handles_article_urls_without_catalog_id(self):
+        source = {
+            "item_id": "MLM3448398398",
+            "catalog_product_id": None,
+            "permalink": "https://articulo.mercadolibre.com.mx/MLM-3448398398-producto-_JM",
+        }
+        cached = {
+            "catalog_product_id": "MLM37627262",
+            "permalink": "https://www.mercadolibre.com.mx/monitor-portatil/p/MLM37627262",
+        }
+        self.assertEqual(resolve_catalog_product_id(source, cached), "MLM37627262")
+        self.assertEqual(
+            canonical_product_permalink(source, "MLM37627262", cached),
+            cached["permalink"],
+        )
+
+    def test_catalog_builder_falls_back_to_item_id_for_non_catalog_listing(self):
+        source = {
+            "item_id": "MLM1234567890",
+            "catalog_product_id": None,
+            "permalink": "https://articulo.mercadolibre.com.mx/MLM-1234567890-producto-_JM",
+        }
+        self.assertEqual(resolve_catalog_product_id(source), "MLM1234567890")
+        self.assertEqual(
+            canonical_product_permalink(source, "MLM1234567890"),
+            "https://www.mercadolibre.com.mx/p/MLM1234567890",
+        )
 
     def test_buyer_comments_have_a_visible_component(self):
         script = (ROOT / "app.js").read_text(encoding="utf-8")

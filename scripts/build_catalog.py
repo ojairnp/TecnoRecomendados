@@ -78,6 +78,10 @@ CURATION = [
     ("https://meli.la/2y85nNX", "Power bank Anker MagGo Qi2 de 10,000 mAh", "Accesorios", 4.8, 3005, "+1,000 vendidos", "Tienda oficial ANKER", True, "Oferta destacada", "Batería ultradelgada con carga magnética Qi2 de 15 W y USB-C de 30 W para mantener equipos compatibles cargados fuera de casa."),
     ("https://meli.la/2trZ1yK", "Teclado mecánico Terport Z11 inalámbrico 60%", "Gaming", 4.8, 886, "+1,000 vendidos", "Tienda oficial Terport", True, "Oferta destacada", "Teclado compacto en español latinoamericano con switches rojos, Bluetooth, receptor 2.4 GHz, cable USB-C y retroiluminación RGB."),
     ("https://meli.la/2RGVSq1", "DJI Mic Mini 2 con dos transmisores y estuche", "Creación de contenido", 4.9, 232, "+5 mil vendidos", "Tienda oficial DJI", True, "Oferta destacada", "Kit de micrófonos inalámbricos compacto con dos transmisores, receptor móvil y estuche de carga para video, entrevistas y contenido móvil."),
+    ("https://meli.la/1Tq5dQ7", "Xiaomi Redmi Watch 5 Active", "Wearables", 4.8, 58197, "+100 mil vendidos", "Tienda oficial Compupaz", True, "Precio destacado", "Reloj inteligente con llamadas Bluetooth, pantalla de 2 pulgadas, seguimiento de actividad y batería de larga duración a un precio accesible."),
+    ("https://meli.la/2Fk2XBv", "TP-Link Deco X50 Wi-Fi 6 Mesh, paquete de 3", "Conectividad", 4.9, 6109, "+100 vendidos", "Tienda oficial TP-Link", True, "Oferta destacada", "Tres nodos Wi-Fi 6 AX3000 con WPA3, control parental y puertos Gigabit para mejorar la cobertura y estabilidad de redes domésticas."),
+    ("https://meli.la/1LTj4GW", "Mouse Logitech Signature M650 L", "Accesorios", 4.9, 1490, "+100 vendidos", "Tienda oficial IQTECH MX", True, "Precio destacado", "Mouse silencioso de tamaño completo con Bluetooth, receptor Logi Bolt, rueda SmartWheel y botones laterales configurables."),
+    ("https://meli.la/2Yk8AMX", "APC Back-UPS BE600 de 600 VA", "Energía", 4.8, 188, "+1,000 vendidos", "Tienda oficial PCEL", True, "Precio destacado", "UPS de 600 VA y 330 W con siete contactos y puerto USB para proteger módems, computadoras y equipos de red durante cortes breves."),
 ]
 
 
@@ -529,6 +533,34 @@ REVIEW_SNAPSHOTS = {
         "snippets": [
             "El audio claro, el tamaño compacto y los protectores contra viento destacan para grabaciones y contenido móvil.",
             "Conviene confirmar el conector del receptor antes de comprar; algunos usuarios reportan que el adaptador esperado para iPhone no venía incluido.",
+        ],
+    },
+    "https://meli.la/1Tq5dQ7": {
+        "rating": 4.8, "reviews": 58197, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "Las llamadas desde la muñeca, la función para localizar el teléfono y la relación calidad-precio reciben buenos comentarios.",
+            "La duración real de la batería depende del uso y sus mediciones de bienestar son orientativas, no sustituyen equipo médico.",
+        ],
+    },
+    "https://meli.la/2Fk2XBv": {
+        "rating": 4.9, "reviews": 6109, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "Compradores destacan la mejora de cobertura, la estabilidad y la configuración sencilla desde la aplicación Deco.",
+            "La cobertura final depende de paredes y ubicación; conviene distribuir los nodos y usar backhaul cableado cuando sea posible.",
+        ],
+    },
+    "https://meli.la/1LTj4GW": {
+        "rating": 4.9, "reviews": 1490, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "La precisión, los clics silenciosos y la comodidad para jornadas largas son los aspectos más valorados.",
+            "Es la versión grande para diestros; algunos compradores consideran más ruidoso el clic de la rueda y algo flojos los botones laterales.",
+        ],
+    },
+    "https://meli.la/2Yk8AMX": {
+        "rating": 4.8, "reviews": 188, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "Su funcionamiento silencioso y el respaldo para módems o equipos esenciales reciben buenas referencias en cortes breves.",
+            "La autonomía depende de la carga conectada; un comprador obtuvo cerca de veinte minutos con Starlink y el límite es de 330 W.",
         ],
     },
 }

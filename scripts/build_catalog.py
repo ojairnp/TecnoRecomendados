@@ -82,6 +82,7 @@ CURATION = [
     ("https://meli.la/2Fk2XBv", "TP-Link Deco X50 Wi-Fi 6 Mesh, paquete de 3", "Conectividad", 4.9, 6109, "+100 vendidos", "Tienda oficial TP-Link", True, "Oferta destacada", "Tres nodos Wi-Fi 6 AX3000 con WPA3, control parental y puertos Gigabit para mejorar la cobertura y estabilidad de redes domésticas."),
     ("https://meli.la/1LTj4GW", "Mouse Logitech Signature M650 L", "Accesorios", 4.9, 1490, "+100 vendidos", "Tienda oficial IQTECH MX", True, "Precio destacado", "Mouse silencioso de tamaño completo con Bluetooth, receptor Logi Bolt, rueda SmartWheel y botones laterales configurables."),
     ("https://meli.la/2Yk8AMX", "APC Back-UPS BE600 de 600 VA", "Energía", 4.8, 188, "+1,000 vendidos", "Tienda oficial PCEL", True, "Precio destacado", "UPS de 600 VA y 330 W con siete contactos y puerto USB para proteger módems, computadoras y equipos de red durante cortes breves."),
+    ("https://meli.la/1oNwFo1", "Consola portátil ASUS ROG Xbox Ally, Ryzen Z2 A", "Gaming", 4.8, 648, "+1,000 vendidos", "Tienda oficial ASUS", True, "Oferta destacada", "Consola portátil con Ryzen Z2 A, 16 GB de RAM, SSD de 512 GB y pantalla Full HD de 7 pulgadas para jugar en Windows dentro y fuera de casa."),
 ]
 
 
@@ -561,6 +562,13 @@ REVIEW_SNAPSHOTS = {
         "snippets": [
             "Su funcionamiento silencioso y el respaldo para módems o equipos esenciales reciben buenas referencias en cortes breves.",
             "La autonomía depende de la carga conectada; un comprador obtuvo cerca de veinte minutos con Starlink y el límite es de 330 W.",
+        ],
+    },
+    "https://meli.la/1oNwFo1": {
+        "rating": 4.8, "reviews": 648, "checked_at": "2026-10-30T00:00:00-05:00",
+        "snippets": [
+            "La portabilidad, la pantalla Full HD y la posibilidad de usar juegos y aplicaciones de Windows son sus principales atractivos.",
+            "La autonomía depende del juego, el brillo y el modo de rendimiento; para sesiones largas conviene tener el cargador cerca.",
         ],
     },
 }

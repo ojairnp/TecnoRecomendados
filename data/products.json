@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-13T20:54:50.845Z",
+  "generated_at": "2026-11-13T21:05:01.747Z",
   "source_note": "Precios y disponibilidad se verifican diariamente. Calificaciones, ventas y extractos de opiniones son una referencia editorial observada en Mercado Libre México y pueden cambiar.",
   "products": [
     {
@@ -27,7 +27,7 @@
         "Amé el producto, lo recomiendo totalmente.",
         "Están preciosos, no lastiman porque uso lentes y tienen buen sonido."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -54,7 +54,7 @@
         "Me sorprendieron bastante; el sonido y los materiales son buenos.",
         "Valió cada centavo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -83,7 +83,7 @@
       ],
       "last_price_check": "2026-10-17T14:02:15.986722+00:00",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-11-13T20:54:50.845Z",
+      "last_price_error": "2026-11-13T21:05:01.747Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -110,7 +110,7 @@
         "La calidad de sonido ya era buenísima.",
         "Decidí volver a confiar en la marca."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -139,7 +139,7 @@
       ],
       "last_price_check": "2026-10-25T14:58:43.794Z",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-11-13T20:54:50.845Z",
+      "last_price_error": "2026-11-13T21:05:01.747Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -166,7 +166,7 @@
         "Mejoró bastante comparado con la versión anterior.",
         "Solo necesito un control remoto en lugar de dos."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -193,7 +193,7 @@
         "Es compatible con la app Xbox para jugar vía nube.",
         "Este control es más cómodo y práctico."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -220,7 +220,7 @@
         "El producto es original y la app sí lo reconoce.",
         "Ahora me matan igual, pero con estilo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -247,7 +247,7 @@
         "Es muy cómodo y ergonómico; no cansa la muñeca.",
         "La pila que trae dura muchísimo tiempo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -274,7 +274,7 @@
         "Pantalla nítida, colores correctos y brillantes.",
         "No puedes contestar llamadas; no tiene bocina ni altavoz."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -283,10 +283,10 @@
       "permalink": "https://www.mercadolibre.com.mx/tablet-samsung-galaxy-tab-a11-87-pulgadas-64gb-4gb-de-ram-wifi-android-15-gris/p/MLM62245259",
       "title": "Samsung Galaxy Tab A11 8.7 pulgadas",
       "category": "Tablets",
-      "price": 2399,
+      "price": 2499,
       "previous_price": 4999,
       "currency": "MXN",
-      "discount": 52,
+      "discount": 50,
       "rating": 4.9,
       "reviews": 2469,
       "sold": "+10 mil vendidos",
@@ -301,7 +301,7 @@
         "Para uso básico es perfecta.",
         "Es la versión que no tiene para tarjeta SIM."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -328,7 +328,7 @@
         "Tiene un arranque con Windows 10 excelente.",
         "Es un cambio tremendo a comparación del HDD."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -355,7 +355,7 @@
         "Un juego lleno de detalles, muy bien hecho; vale mucho la pena.",
         "El juego vino en perfecto estado."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -382,7 +382,7 @@
         "Maximiza el espacio en tu escritorio para trabajar y jugar.",
         "Lo compré para un uso diferente y funcionó perfectamente."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -391,7 +391,7 @@
       "permalink": "https://www.mercadolibre.com.mx/laptop-hp-255r-g10-amd-ryzen-5-7535u-8gb-ddr5-ssd-512gb-pantalla-156-fhd-windows-11-teclado-espanol/p/MLM67144918",
       "title": "Laptop HP 255R G10 Ryzen 5",
       "category": "Cómputo",
-      "price": 10459,
+      "price": 10359,
       "previous_price": 11250,
       "currency": "MXN",
       "discount": 7,
@@ -409,7 +409,7 @@
         "Enciende rápido. Muy útil para las tareas básicas.",
         "Buen equipo, solo se descarga muy rápido."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -438,7 +438,7 @@
       ],
       "last_price_check": "2026-11-12T18:59:32.842Z",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-11-13T20:54:50.845Z",
+      "last_price_error": "2026-11-13T21:05:01.747Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -465,7 +465,7 @@
         "El sonido es excelente, potente y se conecta con rapidez.",
         "Funciona muy bien al aire libre y la batería tiene buena duración."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -492,7 +492,7 @@
         "Las teclas se sienten suaves y la calidad de construcción es buena.",
         "El formato compacto conserva el teclado numérico y resulta cómodo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -519,7 +519,7 @@
         "La red de 5 GHz mantiene buena velocidad y estabilidad.",
         "Es fácil de configurar y permite separar las dos bandas."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -546,7 +546,7 @@
         "La configuración es sencilla y la aplicación resulta práctica.",
         "Mejoró la cobertura, aunque la distancia entre nodos sí importa."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -575,7 +575,7 @@
       ],
       "last_price_check": "2026-10-17T14:02:15.986722+00:00",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-11-13T20:54:50.845Z",
+      "last_price_error": "2026-11-13T21:05:01.747Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -602,7 +602,7 @@
         "La imagen es clara de día y de noche, con buena conexión Wi-Fi.",
         "La detección de movimiento y el audio ayudan a vigilar exteriores."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -629,7 +629,7 @@
         "La imagen se ve clara y la instalación resulta sencilla para videollamadas y clases.",
         "El micrófono cumple, aunque para grabaciones exigentes conviene usar uno dedicado."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -656,7 +656,7 @@
         "El sonido tiene buenos graves y los audífonos son cómodos durante varias horas.",
         "La batería dura bien y el emparejamiento con el teléfono es rápido."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -683,7 +683,7 @@
         "Permite conectar pantalla y varios accesorios al mismo tiempo sin complicaciones.",
         "La construcción se siente sólida y cumple con los puertos anunciados."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -710,7 +710,7 @@
         "Son fáciles de configurar, agrupar y controlar con el asistente de voz.",
         "El brillo es bueno; después de un apagón puede ser necesario volver a enlazarlos."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -737,7 +737,7 @@
         "Mejoró la señal incluso a varios metros del módem y atravesando paredes.",
         "Windows lo reconoció rápidamente y la conexión se mantuvo estable."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -766,7 +766,7 @@
       ],
       "last_price_check": "2026-09-15T16:52:33.674174+00:00",
       "last_review_check": "2026-09-11T00:00:00-05:00",
-      "last_price_error": "2026-11-13T20:54:50.845Z",
+      "last_price_error": "2026-11-13T21:05:01.747Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -793,7 +793,7 @@
         "La aplicación es sencilla y permite programar horarios de encendido y apagado.",
         "Se integra con Alexa sin dificultad y resulta útil para automatizaciones básicas."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -820,7 +820,7 @@
         "La imagen es clara de día y de noche, y la aplicación organiza bien las grabaciones.",
         "La detección es sensible y puede generar demasiadas notificaciones si no se ajusta."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -847,7 +847,7 @@
         "Los colores se ven vivos y el tamaño facilita trabajar con varias ventanas.",
         "Cumple con los 100 Hz; conviene ajustar el brillo inicial al gusto."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -874,7 +874,7 @@
         "Se conecta con facilidad a varios dispositivos y sus teclas resultan silenciosas.",
         "El formato compacto facilita transportarlo; conviene revisar la distribución elegida."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -901,7 +901,7 @@
         "El audio se percibe claro y la cancelación de ruido ayuda a aislar la voz.",
         "Es fácil de configurar; la ganancia y el monitoreo permiten ajustar la grabación."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -928,7 +928,7 @@
         "La carcasa metálica se siente sólida y mantiene estable la conexión gigabit.",
         "La instalación es directa: basta conectar los cables para comenzar a usarlo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -955,7 +955,7 @@
         "La carga rápida funciona bien con equipos Samsung compatibles y sin calentamiento excesivo.",
         "No incluye cable USB-C; hay que considerar ese accesorio por separado."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -982,7 +982,7 @@
         "Son ligeros y cómodos para sesiones de juego, con buen aislamiento.",
         "El audio cumple por el precio; algunos compradores prefieren graves más fuertes."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1009,7 +1009,7 @@
         "La imagen es clara para videollamadas y la instalación resulta sencilla.",
         "La tapa de privacidad es práctica; el video está limitado a 30 cuadros por segundo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1036,7 +1036,7 @@
         "El sonido conserva buena claridad incluso a volumen alto y la batería dura bastante.",
         "Es ligera y resistente al agua; sus 5 W están pensados para espacios pequeños."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1063,7 +1063,7 @@
         "Se siente compacto y sólido, y permite cargar teléfonos y computadoras compatibles.",
         "Al utilizar varios puertos se divide la potencia y algunos compradores reportan calentamiento."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1090,7 +1090,7 @@
         "La configuración es sencilla y los micrófonos responden bien en una habitación.",
         "Necesita permanecer conectado a corriente y su sonido es menos potente que un Echo Dot."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1117,7 +1117,7 @@
         "La correa resulta cómoda y la batería tiene buena duración para el uso diario.",
         "No incluye GPS y la autonomía real depende de las funciones activadas."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-11T00:00:00-05:00"
     },
     {
@@ -1144,7 +1144,7 @@
         "La conexión se siente firme y los dos metros de longitud resultan cómodos para el uso diario.",
         "Carga dispositivos compatibles con rapidez; la transferencia de datos está limitada a velocidad USB 2.0."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1171,7 +1171,7 @@
         "La luz tiene buena potencia, materiales sólidos y muchas opciones de color desde la aplicación.",
         "La publicación incluye un panel y maleta; el trípode y las baterías recargables se compran por separado."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1198,7 +1198,7 @@
         "El sonido y los graves cumplen bien por el precio, y el diseño ligero resulta cómodo.",
         "No tienen cancelación activa de ruido y las letras laterales se iluminan durante el uso."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1225,7 +1225,7 @@
         "La conexión Bluetooth es rápida, estable y ahorra un puerto USB en la computadora.",
         "Su tamaño compacto facilita transportarlo, aunque puede sentirse pequeño en manos grandes."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1252,7 +1252,7 @@
         "La forma vertical mejora la comodidad de la muñeca durante jornadas largas de trabajo.",
         "Está diseñado para diestros y requiere un periodo de adaptación frente a un mouse convencional."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-15T00:00:00-05:00"
     },
     {
@@ -1279,7 +1279,7 @@
         "Se siente firme, compacto y cómodo tanto para jugar como para escribir.",
         "Las teclas mecánicas pueden resultar ruidosas si se usa de noche o en un espacio compartido."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1306,7 +1306,7 @@
         "Compradores destacan su velocidad y estabilidad al grabar fotografía y video en alta resolución.",
         "Conviene verificar la compatibilidad SDXC y la capacidad máxima admitida por el dispositivo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1333,7 +1333,7 @@
         "El mapeo por habitaciones y el control desde la aplicación ahorran tiempo en la limpieza cotidiana.",
         "No sustituye una limpieza profunda porque puede dejar rincones o zonas bajo ciertos muebles."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1360,7 +1360,7 @@
         "La imagen y el brillo tienen buena relación calidad-precio en espacios oscuros o con luz moderada.",
         "El sistema integrado es práctico, aunque puede sentirse menos fluido que un reproductor externo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1387,7 +1387,7 @@
         "El sonido es potente y envolvente, con graves notorios sin distorsión a volumen alto.",
         "Su construcción es sólida y la batería dura bien, aunque no es la bocina más compacta de la categoría."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-09-19T00:00:00-05:00"
     },
     {
@@ -1414,7 +1414,7 @@
         "El sonido detallado y balanceado funciona bien para monitoreo, edición y grabación.",
         "El cable largo es útil en estudio, pero el formato alámbrico puede resultar estorboso fuera de casa."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-11T08:30:00-05:00"
     },
     {
@@ -1441,7 +1441,7 @@
         "Compradores destacan la estabilidad, el alcance y la facilidad de configuración para aprovechar conexiones rápidas.",
         "El modo repetidor puede requerir configuración adicional y la banda de 5 GHz pierde alcance al atravesar paredes."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-11T08:30:00-05:00"
     },
     {
@@ -1470,7 +1470,7 @@
       ],
       "last_price_check": "2026-10-30T17:03:11.429Z",
       "last_review_check": "2026-10-11T08:30:00-05:00",
-      "last_price_error": "2026-11-13T20:54:50.845Z",
+      "last_price_error": "2026-11-13T21:05:01.747Z",
       "last_price_error_message": "No se encontró la ficha destacada del producto"
     },
     {
@@ -1497,7 +1497,7 @@
         "La instalación resulta sencilla y la imagen diurna y nocturna permite reconocer personas y objetos.",
         "Solo admite Wi-Fi de 2.4 GHz, necesita alimentación eléctrica y conviene revisar los permisos de la aplicación."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-11T08:30:00-05:00"
     },
     {
@@ -1524,7 +1524,7 @@
         "El sonido, la comodidad y la duración de la batería ofrecen una relación calidad-precio sobresaliente.",
         "La cancelación funciona mejor con ruidos constantes; sonidos repentinos siguen siendo perceptibles y no tiene baja latencia para jugar."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-17T09:02:15-05:00"
     },
     {
@@ -1551,7 +1551,7 @@
         "Las aplicaciones funcionan de forma rápida y la reproducción 4K ofrece una imagen nítida por su precio.",
         "Solo dispone de 8 GB y conviene configurar el apagado para que el dispositivo no permanezca encendido con la televisión apagada."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-17T09:02:15-05:00"
     },
     {
@@ -1560,10 +1560,10 @@
       "permalink": "https://www.mercadolibre.com.mx/epson-ecotank-impresora-multifuncional-l3250-wifi/p/MLM45880631",
       "title": "Impresora Epson EcoTank L3250 con Wi-Fi",
       "category": "Cómputo",
-      "price": 6428,
+      "price": 6328,
       "previous_price": 6988,
       "currency": "MXN",
-      "discount": 8,
+      "discount": 9,
       "rating": 4.8,
       "reviews": 3078,
       "sold": "+1,000 vendidos",
@@ -1578,7 +1578,7 @@
         "La tinta rinde mucho, la impresión es clara y la conexión por Wi-Fi resulta práctica para el uso diario.",
         "La impresión a doble cara es manual y algunos compradores señalan que la configuración inicial puede requerir atención."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-17T09:02:15-05:00"
     },
     {
@@ -1605,7 +1605,7 @@
         "La pantalla es ligera, fácil de conectar y útil como segundo monitor para trabajo o viajes.",
         "Los altavoces tienen volumen limitado y algunos equipos requieren alimentación adicional cuando se usa HDMI."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-17T09:02:15-05:00"
     },
     {
@@ -1632,7 +1632,7 @@
         "Compradores destacan la instalación sencilla, la interfaz fluida y la comodidad del control por voz.",
         "La resolución máxima es Full HD, no 4K, y el alcance del control puede variar según la ubicación del equipo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1659,7 +1659,7 @@
         "El sonido potente, los bajos presentes y la conexión sencilla reciben buenos comentarios para uso dentro y fuera de casa.",
         "La autonomía anunciada depende del volumen y de funciones como BassUp y las luces, por lo que puede reducirse con uso intensivo."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1686,7 +1686,7 @@
         "El diseño delgado, los materiales y la carga por USB-C ofrecen una solución práctica para llevar energía adicional.",
         "La carga inalámbrica es más lenta que por cable y la fijación magnética en Android puede requerir una funda o aro compatible."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1713,7 +1713,7 @@
         "El formato compacto, los colores y la construcción reciben buenos comentarios por su relación calidad-precio.",
         "El diseño de 60% elimina teclas dedicadas y algunos compradores consideran mejorables los switches incluidos para jugar en PC."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1740,7 +1740,7 @@
         "El audio claro, el tamaño compacto y los protectores contra viento destacan para grabaciones y contenido móvil.",
         "Conviene confirmar el conector del receptor antes de comprar; algunos usuarios reportan que el adaptador esperado para iPhone no venía incluido."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1767,7 +1767,7 @@
         "Las llamadas desde la muñeca, la función para localizar el teléfono y la relación calidad-precio reciben buenos comentarios.",
         "La duración real de la batería depende del uso y sus mediciones de bienestar son orientativas, no sustituyen equipo médico."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1794,7 +1794,7 @@
         "Compradores destacan la mejora de cobertura, la estabilidad y la configuración sencilla desde la aplicación Deco.",
         "La cobertura final depende de paredes y ubicación; conviene distribuir los nodos y usar backhaul cableado cuando sea posible."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1821,7 +1821,7 @@
         "La precisión, los clics silenciosos y la comodidad para jornadas largas son los aspectos más valorados.",
         "Es la versión grande para diestros; algunos compradores consideran más ruidoso el clic de la rueda y algo flojos los botones laterales."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1848,7 +1848,7 @@
         "Su funcionamiento silencioso y el respaldo para módems o equipos esenciales reciben buenas referencias en cortes breves.",
         "La autonomía depende de la carga conectada; un comprador obtuvo cerca de veinte minutos con Starlink y el límite es de 330 W."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
     },
     {
@@ -1875,13 +1875,202 @@
         "La portabilidad, la pantalla Full HD y la posibilidad de usar juegos y aplicaciones de Windows son sus principales atractivos.",
         "La autonomía depende del juego, el brillo y el modo de rendimiento; para sesiones largas conviene tener el cargador cerca."
       ],
-      "last_price_check": "2026-11-13T20:54:50.845Z",
+      "last_price_check": "2026-11-13T21:05:01.747Z",
       "last_review_check": "2026-10-30T00:00:00-05:00"
+    },
+    {
+      "id": "MLM4055770434",
+      "catalog_product_id": "MLM1055308632",
+      "permalink": "https://www.mercadolibre.com.mx/apple-iphone-17-pro-max-256-gb-azul-profundo-distribuidor-autorizado/p/MLM1055308632",
+      "title": "Apple iPhone 17 Pro Max de 256 GB",
+      "category": "Celulares",
+      "price": 29699,
+      "previous_price": 30999,
+      "currency": "MXN",
+      "discount": 4,
+      "rating": 4.9,
+      "reviews": 2115,
+      "sold": "+100 vendidos",
+      "seller": "Tienda oficial Apple",
+      "official_store": true,
+      "price_signal": "Tienda oficial",
+      "reason": "Equipo premium con pantalla amplia, sistema de cámaras Pro y respaldo de un distribuidor autorizado; conviene para quien prioriza fotografía, video y larga vida útil.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_607164-MLA95811628771_102025-F.webp",
+      "affiliate_url": "https://meli.la/2bcYFy6",
+      "available": true,
+      "review_snippets": [
+        "La calidad de las cámaras, el rendimiento y el acabado premium concentran buena parte de las valoraciones positivas.",
+        "Es un equipo grande y costoso; conviene confirmar compatibilidad de SIM, capacidad y garantía antes de comprar."
+      ],
+      "last_price_check": "2026-11-13T21:05:01.747Z",
+      "last_review_check": "2026-11-13T00:00:00-05:00"
+    },
+    {
+      "id": "MLM6067053076",
+      "catalog_product_id": "MLM40057670",
+      "permalink": "https://www.mercadolibre.com.mx/bocina-sony-portatil-inalambrica-ult-field-1-srs-ult10-color-negro-bluetooth/p/MLM40057670",
+      "title": "Bocina Sony ULT Field 1",
+      "category": "Audio",
+      "price": 1576,
+      "previous_price": 1752,
+      "currency": "MXN",
+      "discount": 10,
+      "rating": 4.9,
+      "reviews": 2286,
+      "sold": "+1,000 vendidos",
+      "seller": "Tienda oficial Sony",
+      "official_store": true,
+      "price_signal": "Oferta destacada",
+      "reason": "Bocina portátil resistente y compacta con refuerzo de graves, buena reputación y precio promocional para música dentro y fuera de casa.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_655267-MLA99933581805_112025-F.webp",
+      "affiliate_url": "https://meli.la/2dWoWDg",
+      "available": true,
+      "review_snippets": [
+        "Compradores destacan el sonido potente, los graves y el tamaño fácil de transportar para uso cotidiano.",
+        "El refuerzo ULT aumenta los bajos, pero el volumen y ese modo pueden reducir la duración real de la batería."
+      ],
+      "last_price_check": "2026-11-13T21:05:01.747Z",
+      "last_review_check": "2026-11-13T00:00:00-05:00"
+    },
+    {
+      "id": "MLM2516718165",
+      "catalog_product_id": "MLM48882354",
+      "permalink": "https://www.mercadolibre.com.mx/control-bluetooth-8bitdo-ultimate-2c-para-nintendo-switch-2-y-pc-azul/p/MLM48882354",
+      "title": "Control 8BitDo Ultimate 2C para Switch 2 y PC",
+      "category": "Gaming",
+      "price": 629.02,
+      "previous_price": 898.6,
+      "currency": "MXN",
+      "discount": 30,
+      "rating": 4.9,
+      "reviews": 1930,
+      "sold": "+1,000 vendidos",
+      "seller": "Tienda oficial SOUNARC",
+      "official_store": true,
+      "price_signal": "Oferta destacada",
+      "reason": "Control Bluetooth con joysticks de efecto Hall, respuesta precisa y compatibilidad con Nintendo Switch 2 y PC a un precio competitivo.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_887381-MLA99515769724_112025-F.webp",
+      "affiliate_url": "https://meli.la/1u8dvnY",
+      "available": true,
+      "review_snippets": [
+        "La conexión sencilla, la precisión de los joysticks Hall y la respuesta sin retrasos reciben muy buenas referencias.",
+        "Su cuerpo es algo menor que un control de Xbox y las gomas de los sticks pueden requerir limpieza o protectores."
+      ],
+      "last_price_check": "2026-11-13T21:05:01.747Z",
+      "last_review_check": "2026-11-13T00:00:00-05:00"
+    },
+    {
+      "id": "MLM4672731822",
+      "catalog_product_id": "MLM64298323",
+      "permalink": "https://www.mercadolibre.com.mx/power-bank-anker-20000mah-45w-con-2-cables-usb-c-integrados-carga-rapida-compacta-y-portatil-compatible-con-iphone-15161718-samsung-xiaomi-y-motorola-blanco/p/MLM64298323",
+      "title": "Power bank Anker de 20,000 mAh y 45 W",
+      "category": "Accesorios",
+      "price": 581,
+      "previous_price": 999,
+      "currency": "MXN",
+      "discount": 41,
+      "rating": 4.9,
+      "reviews": 1319,
+      "sold": "+1,000 vendidos",
+      "seller": "Tienda oficial ANKER",
+      "official_store": true,
+      "price_signal": "Oferta destacada",
+      "reason": "Batería portátil de alta capacidad con dos cables USB-C integrados y carga rápida de hasta 45 W para viajes y jornadas largas.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_673183-MLA111513395405_052026-F.webp",
+      "affiliate_url": "https://meli.la/29voJ3v",
+      "available": true,
+      "review_snippets": [
+        "La carga rápida, los cables integrados y el buen desempeño durante viajes son los aspectos más elogiados.",
+        "Por su capacidad tiene más peso que una batería pequeña y la potencia final depende del puerto y dispositivo conectados."
+      ],
+      "last_price_check": "2026-11-13T21:05:01.747Z",
+      "last_review_check": "2026-11-13T00:00:00-05:00"
+    },
+    {
+      "id": "MLM5984325928",
+      "catalog_product_id": "MLM72155320",
+      "permalink": "https://www.mercadolibre.com.mx/xiaomi-smart-band-10-pro-glacier-silver/p/MLM72155320",
+      "title": "Xiaomi Smart Band 10 Pro",
+      "category": "Wearables",
+      "price": 1221,
+      "previous_price": 1399,
+      "currency": "MXN",
+      "discount": 12,
+      "rating": 4.9,
+      "reviews": 842,
+      "sold": "+100 vendidos",
+      "seller": "Tienda oficial Xiaomi",
+      "official_store": true,
+      "price_signal": "Oferta destacada",
+      "reason": "Pulsera con pantalla AMOLED, GPS, resistencia 5 ATM y batería de larga duración para actividad diaria y ejercicio.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_871027-MLA111641312976_062026-F.webp",
+      "affiliate_url": "https://meli.la/1rXVsAk",
+      "available": true,
+      "review_snippets": [
+        "La pantalla nítida, el GPS y una autonomía de varios días destacan por su relación entre funciones y precio.",
+        "Algunos compradores mencionan detección lenta de actividades o menor sensibilidad táctil; las mediciones son orientativas."
+      ],
+      "last_price_check": "2026-11-13T21:05:01.747Z",
+      "last_review_check": "2026-11-13T00:00:00-05:00"
+    },
+    {
+      "id": "MLM2889335702",
+      "catalog_product_id": "MLM28780132",
+      "permalink": "https://www.mercadolibre.com.mx/amazon-asistente-virtual-echo-dot-5th-gen-con-asistente-virtual-alexa-color-charcoal/p/MLM28780132",
+      "title": "Amazon Echo Dot de quinta generación",
+      "category": "Hogar inteligente",
+      "price": 1049,
+      "previous_price": 1399,
+      "currency": "MXN",
+      "discount": 25,
+      "rating": 4.9,
+      "reviews": 228,
+      "sold": "+1,000 vendidos",
+      "seller": "karsagdl",
+      "official_store": false,
+      "price_signal": "Oferta destacada",
+      "reason": "Bocina inteligente compacta con Alexa, Wi-Fi, Bluetooth y audio multi-room para música y automatizaciones compatibles.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_750364-MLU79180671553_092024-F.webp",
+      "affiliate_url": "https://meli.la/2SXgofx",
+      "available": true,
+      "review_snippets": [
+        "La configuración práctica, el sonido claro y la respuesta rápida de Alexa reciben comentarios favorables.",
+        "Necesita permanecer conectado a la corriente y sus funciones dependen de Wi-Fi, cuenta Amazon y servicios compatibles."
+      ],
+      "last_price_check": "2026-11-13T21:05:01.747Z",
+      "last_review_check": "2026-11-13T00:00:00-05:00"
+    },
+    {
+      "id": "MLM2178995759",
+      "catalog_product_id": "MLM27476966",
+      "permalink": "https://www.mercadolibre.com.mx/camara-ip-ezviz-c6n-plus-360-ptz-full-hd-con-audio-bidireccional-y-micro-sd-de-32-gb/p/MLM27476966",
+      "title": "Cámara Ezviz C6N Plus 360° con microSD",
+      "category": "Hogar inteligente",
+      "price": 797.34,
+      "previous_price": 1099,
+      "currency": "MXN",
+      "discount": 27,
+      "rating": 4.9,
+      "reviews": 106,
+      "sold": "+1,000 vendidos",
+      "seller": "Tienda oficial Seguridad Total",
+      "official_store": true,
+      "price_signal": "Oferta destacada",
+      "reason": "Cámara interior Full HD motorizada con cobertura de 360°, audio bidireccional, alertas y tarjeta microSD de 32 GB incluida.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_769994-MLA110303893154_052026-F.webp",
+      "affiliate_url": "https://meli.la/2CGwWzm",
+      "available": true,
+      "review_snippets": [
+        "La cobertura de 360 grados, la imagen Full HD y el audio bidireccional son útiles para supervisar interiores.",
+        "La configuración requiere la aplicación EZVIZ y este modelo no es resistente al agua ni está pensado para exterior."
+      ],
+      "last_price_check": "2026-11-13T21:05:01.747Z",
+      "last_review_check": "2026-11-13T00:00:00-05:00"
     }
   ],
   "sync": {
-    "price_success": 63,
-    "price_total": 69,
+    "price_success": 70,
+    "price_total": 76,
     "buyer_comments": "editorial_snapshot"
   }
 }

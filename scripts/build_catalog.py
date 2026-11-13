@@ -83,6 +83,13 @@ CURATION = [
     ("https://meli.la/1LTj4GW", "Mouse Logitech Signature M650 L", "Accesorios", 4.9, 1490, "+100 vendidos", "Tienda oficial IQTECH MX", True, "Precio destacado", "Mouse silencioso de tamaño completo con Bluetooth, receptor Logi Bolt, rueda SmartWheel y botones laterales configurables."),
     ("https://meli.la/2Yk8AMX", "APC Back-UPS BE600 de 600 VA", "Energía", 4.8, 188, "+1,000 vendidos", "Tienda oficial PCEL", True, "Precio destacado", "UPS de 600 VA y 330 W con siete contactos y puerto USB para proteger módems, computadoras y equipos de red durante cortes breves."),
     ("https://meli.la/1oNwFo1", "Consola portátil ASUS ROG Xbox Ally, Ryzen Z2 A", "Gaming", 4.8, 648, "+1,000 vendidos", "Tienda oficial ASUS", True, "Oferta destacada", "Consola portátil con Ryzen Z2 A, 16 GB de RAM, SSD de 512 GB y pantalla Full HD de 7 pulgadas para jugar en Windows dentro y fuera de casa."),
+    ("https://meli.la/2bcYFy6", "Apple iPhone 17 Pro Max de 256 GB", "Celulares", 4.9, 2115, "+100 vendidos", "Tienda oficial Apple", True, "Tienda oficial", "Equipo premium con pantalla amplia, sistema de cámaras Pro y respaldo de un distribuidor autorizado; conviene para quien prioriza fotografía, video y larga vida útil."),
+    ("https://meli.la/2dWoWDg", "Bocina Sony ULT Field 1", "Audio", 4.9, 2286, "+1,000 vendidos", "Tienda oficial Sony", True, "Oferta destacada", "Bocina portátil resistente y compacta con refuerzo de graves, buena reputación y precio promocional para música dentro y fuera de casa."),
+    ("https://meli.la/1u8dvnY", "Control 8BitDo Ultimate 2C para Switch 2 y PC", "Gaming", 4.9, 1930, "+1,000 vendidos", "Tienda oficial SOUNARC", True, "Oferta destacada", "Control Bluetooth con joysticks de efecto Hall, respuesta precisa y compatibilidad con Nintendo Switch 2 y PC a un precio competitivo."),
+    ("https://meli.la/29voJ3v", "Power bank Anker de 20,000 mAh y 45 W", "Accesorios", 4.9, 1319, "+1,000 vendidos", "Tienda oficial ANKER", True, "Oferta destacada", "Batería portátil de alta capacidad con dos cables USB-C integrados y carga rápida de hasta 45 W para viajes y jornadas largas."),
+    ("https://meli.la/1rXVsAk", "Xiaomi Smart Band 10 Pro", "Wearables", 4.9, 842, "+100 vendidos", "Tienda oficial Xiaomi", True, "Oferta destacada", "Pulsera con pantalla AMOLED, GPS, resistencia 5 ATM y batería de larga duración para actividad diaria y ejercicio."),
+    ("https://meli.la/2SXgofx", "Amazon Echo Dot de quinta generación", "Hogar inteligente", 4.9, 228, "+1,000 vendidos", "karsagdl", False, "Oferta destacada", "Bocina inteligente compacta con Alexa, Wi-Fi, Bluetooth y audio multi-room para música y automatizaciones compatibles."),
+    ("https://meli.la/2CGwWzm", "Cámara Ezviz C6N Plus 360° con microSD", "Hogar inteligente", 4.9, 106, "+1,000 vendidos", "Tienda oficial Seguridad Total", True, "Oferta destacada", "Cámara interior Full HD motorizada con cobertura de 360°, audio bidireccional, alertas y tarjeta microSD de 32 GB incluida."),
 ]
 
 
@@ -569,6 +576,55 @@ REVIEW_SNAPSHOTS = {
         "snippets": [
             "La portabilidad, la pantalla Full HD y la posibilidad de usar juegos y aplicaciones de Windows son sus principales atractivos.",
             "La autonomía depende del juego, el brillo y el modo de rendimiento; para sesiones largas conviene tener el cargador cerca.",
+        ],
+    },
+    "https://meli.la/2bcYFy6": {
+        "rating": 4.9, "reviews": 2115, "checked_at": "2026-11-13T00:00:00-05:00",
+        "snippets": [
+            "La calidad de las cámaras, el rendimiento y el acabado premium concentran buena parte de las valoraciones positivas.",
+            "Es un equipo grande y costoso; conviene confirmar compatibilidad de SIM, capacidad y garantía antes de comprar.",
+        ],
+    },
+    "https://meli.la/2dWoWDg": {
+        "rating": 4.9, "reviews": 2286, "checked_at": "2026-11-13T00:00:00-05:00",
+        "snippets": [
+            "Compradores destacan el sonido potente, los graves y el tamaño fácil de transportar para uso cotidiano.",
+            "El refuerzo ULT aumenta los bajos, pero el volumen y ese modo pueden reducir la duración real de la batería.",
+        ],
+    },
+    "https://meli.la/1u8dvnY": {
+        "rating": 4.9, "reviews": 1930, "checked_at": "2026-11-13T00:00:00-05:00",
+        "snippets": [
+            "La conexión sencilla, la precisión de los joysticks Hall y la respuesta sin retrasos reciben muy buenas referencias.",
+            "Su cuerpo es algo menor que un control de Xbox y las gomas de los sticks pueden requerir limpieza o protectores.",
+        ],
+    },
+    "https://meli.la/29voJ3v": {
+        "rating": 4.9, "reviews": 1319, "checked_at": "2026-11-13T00:00:00-05:00",
+        "snippets": [
+            "La carga rápida, los cables integrados y el buen desempeño durante viajes son los aspectos más elogiados.",
+            "Por su capacidad tiene más peso que una batería pequeña y la potencia final depende del puerto y dispositivo conectados.",
+        ],
+    },
+    "https://meli.la/1rXVsAk": {
+        "rating": 4.9, "reviews": 842, "checked_at": "2026-11-13T00:00:00-05:00",
+        "snippets": [
+            "La pantalla nítida, el GPS y una autonomía de varios días destacan por su relación entre funciones y precio.",
+            "Algunos compradores mencionan detección lenta de actividades o menor sensibilidad táctil; las mediciones son orientativas.",
+        ],
+    },
+    "https://meli.la/2SXgofx": {
+        "rating": 4.9, "reviews": 228, "checked_at": "2026-11-13T00:00:00-05:00",
+        "snippets": [
+            "La configuración práctica, el sonido claro y la respuesta rápida de Alexa reciben comentarios favorables.",
+            "Necesita permanecer conectado a la corriente y sus funciones dependen de Wi-Fi, cuenta Amazon y servicios compatibles.",
+        ],
+    },
+    "https://meli.la/2CGwWzm": {
+        "rating": 4.9, "reviews": 106, "checked_at": "2026-11-13T00:00:00-05:00",
+        "snippets": [
+            "La cobertura de 360 grados, la imagen Full HD y el audio bidireccional son útiles para supervisar interiores.",
+            "La configuración requiere la aplicación EZVIZ y este modelo no es resistente al agua ni está pensado para exterior.",
         ],
     },
 }

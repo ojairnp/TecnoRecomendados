@@ -86,6 +86,8 @@ class SiteTests(unittest.TestCase):
     def test_daily_workflow_updates_and_validates_catalog(self):
         workflow = (ROOT / ".github" / "workflows" / "update-catalog.yml").read_text(encoding="utf-8")
         self.assertIn('timezone: "America/Cancun"', workflow)
+        self.assertIn("scripts/research_products.py", workflow)
+        self.assertIn("scripts/build_catalog.py", workflow)
         self.assertIn("npm run update-catalog", workflow)
         self.assertIn("python3 -m unittest", workflow)
         self.assertIn("contents: write", workflow)
